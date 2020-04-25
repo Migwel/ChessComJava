@@ -1,0 +1,28 @@
+allprojects {
+    apply plugin: 'java'
+
+    group 'dev.migwel.chesscomjava'
+    version '1.0-SNAPSHOT'
+
+    sourceCompatibility = 1.14
+
+    repositories {
+        mavenCentral()
+    }
+
+    tasks.withType(JavaCompile).each {
+        it.options.compilerArgs.add('--enable-preview')
+    }
+
+    dependencies {
+        compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+        compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+        testCompile 'org.mockito:mockito-core:2.+'
+        testImplementation('org.junit.jupiter:junit-jupiter:5.4.0')
+    }
+
+    test {
+        useJUnitPlatform()
+        jvmArgs(['--enable-preview'])
+    }
+}
