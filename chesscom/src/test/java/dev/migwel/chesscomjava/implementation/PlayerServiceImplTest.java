@@ -7,6 +7,7 @@ import dev.migwel.chesscomjava.services.PlayerService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PlayerServiceImplTest {
 
@@ -27,7 +28,12 @@ class PlayerServiceImplTest {
     @Test
     void testGetPlayerStats() {
         PlayerStats playerStats = playerService.getPlayerStats("mig_well");
-        System.out.println(playerStats);
         assertEquals(playerStats.fide(), 0);
+    }
+
+    @Test
+    void testIsOnline() {
+        boolean isOnline = playerService.isOnline("mig_well");
+        assertTrue(isOnline);
     }
 }

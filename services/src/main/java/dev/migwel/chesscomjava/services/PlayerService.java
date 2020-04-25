@@ -9,4 +9,5 @@ public interface PlayerService {
     Player getProfile(String username);
     TitledPlayers getTitledPlayers(String title);
     PlayerStats getPlayerStats(String username);
+    boolean isOnline(String username);
 }
