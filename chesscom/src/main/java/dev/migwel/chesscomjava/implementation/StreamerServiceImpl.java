@@ -6,8 +6,14 @@ import dev.migwel.chesscomjava.services.StreamerService;
 
 class StreamerServiceImpl implements StreamerService {
 
+    private final ChessComFetcher fetcher;
+
+    public StreamerServiceImpl(ChessComFetcher fetcher) {
+        this.fetcher = fetcher;
+    }
+
     @Override
     public Streamers getStreamers() {
-        return ChessComFetcher.fetch("https://api.chess.com/pub/streamers", Streamers.class);
+        return fetcher.fetch("https://api.chess.com/pub/streamers", Streamers.class);
     }
 }

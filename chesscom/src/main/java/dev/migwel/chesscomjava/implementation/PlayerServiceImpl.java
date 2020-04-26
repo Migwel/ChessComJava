@@ -9,24 +9,30 @@ import dev.migwel.chesscomjava.services.PlayerService;
 
 class PlayerServiceImpl implements PlayerService {
 
+    private final ChessComFetcher fetcher;
+
+    public PlayerServiceImpl(ChessComFetcher fetcher) {
+        this.fetcher = fetcher;
+    }
+
     @Override
     public Player getProfile(String username) {
-        return ChessComFetcher.fetch(String.format("https://api.chess.com/pub/player/%s", username), Player.class);
+        return fetcher.fetch(String.format("https://api.chess.com/pub/player/%s", username), Player.class);
     }
 
     @Override
     public TitledPlayers getTitledPlayers(String title) {
-        return ChessComFetcher.fetch(String.format("https://api.chess.com/pub/titled/%s", title), TitledPlayers.class);
+        return fetcher.fetch(String.format("https://api.chess.com/pub/titled/%s", title), TitledPlayers.class);
     }
 
     @Override
     public PlayerStats getPlayerStats(String username) {
-        return ChessComFetcher.fetch(String.format("https://api.chess.com/pub/player/%s/stats", username), PlayerStats.class);
+        return fetcher.fetch(String.format("https://api.chess.com/pub/player/%s/stats", username), PlayerStats.class);
     }
 
     @Override
     public boolean isOnline(String username) {
-        PlayerOnline playerOnline = ChessComFetcher.fetch(String.format("https://api.chess.com/pub/player/%s/is-online", username), PlayerOnline.class);
+        PlayerOnline playerOnline = fetcher.fetch(String.format("https://api.chess.com/pub/player/%s/is-online", username), PlayerOnline.class);
         if (playerOnline == null) {
             return false;
         }

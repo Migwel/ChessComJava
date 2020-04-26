@@ -16,8 +16,8 @@ public class ChessComFetcher {
     private static final Logger log = LoggerFactory.getLogger(ChessComFetcher.class);
     private static final Gson gson = new Gson();
 
-    public static <T> T fetch(String url, Class<T> responseClass) {
-        String response = ChessComFetcher.httpGet(url);
+    public <T> T fetch(String url, Class<T> responseClass) {
+        String response = httpGet(url);
         T responseObject;
         try {
             responseObject = gson.fromJson(response, responseClass);
@@ -28,7 +28,7 @@ public class ChessComFetcher {
         return responseObject;
     }
 
-    public static String httpGet(String url) {
+    private String httpGet(String url) {
         StringBuilder sb = new StringBuilder();
         HttpGet httpGet = new HttpGet(url);
         try(CloseableHttpClient httpClient = HttpClients.createDefault()) {
