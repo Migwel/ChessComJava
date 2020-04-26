@@ -1,0 +1,1843 @@
+{
+  "finished": [
+    {
+      "name": "1st TOC. Bishop Div/R3:TeamUSA vs Netherlands",
+      "url": "https://www.chess.com/club/matches/642370",
+      "@id": "https://api.chess.com/pub/match/642370",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "repetition",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/642370/29"
+    },
+    {
+      "name": "2014 Pan American League Round 3 Team USA North-Central Vs Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/387730",
+      "@id": "https://api.chess.com/pub/match/387730",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/387730/7"
+    },
+    {
+      "name": "2014 Pan Cup U-1800 R.1: Bolivia x Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/444988",
+      "@id": "https://api.chess.com/pub/match/444988",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/444988/2"
+    },
+    {
+      "name": "2014 Pan-American League: Team USA: Southwest vs. Team Colombia",
+      "url": "https://www.chess.com/club/matches/362344",
+      "@id": "https://api.chess.com/pub/match/362344",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/362344/16"
+    },
+    {
+      "name": "2014 Pan-American League R2: Team USA Southeast vs. Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/372900",
+      "@id": "https://api.chess.com/pub/match/372900",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/372900/19"
+    },
+    {
+      "name": "2014 Pan-American League Round 4:Team USA: Southwest vs. Team Mexico",
+      "url": "https://www.chess.com/club/matches/402658",
+      "@id": "https://api.chess.com/pub/match/402658",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/402658/14"
+    },
+    {
+      "name": "2014 Pan-American League: Team Brazil vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/421886",
+      "@id": "https://api.chess.com/pub/match/421886",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/421886/15"
+    },
+    {
+      "name": "2014 Pan-American League: Team USA: Southwest vs. Team Canada",
+      "url": "https://www.chess.com/club/matches/428554",
+      "@id": "https://api.chess.com/pub/match/428554",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "checkmated"
+      },
+      "board": "https://api.chess.com/pub/match/428554/14"
+    },
+    {
+      "name": "2015 Pan-American League:Team USA Southwest vs.Team Colombia",
+      "url": "https://www.chess.com/club/matches/489666",
+      "@id": "https://api.chess.com/pub/match/489666",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/489666/5"
+    },
+    {
+      "name": "2015 Pan-American League R3:Team Canada vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/510138",
+      "@id": "https://api.chess.com/pub/match/510138",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/510138/14"
+    },
+    {
+      "name": "2015 Pan-American League R4:Team USA: SW vs Team USA: SE",
+      "url": "https://www.chess.com/club/matches/520052",
+      "@id": "https://api.chess.com/pub/match/520052",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/520052/14"
+    },
+    {
+      "name": "2015 Pan-American League R6:Team USA: Southwest vs Equipo/Team Chile",
+      "url": "https://www.chess.com/club/matches/543270",
+      "@id": "https://api.chess.com/pub/match/543270",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/543270/11"
+    },
+    {
+      "name": "2015 Pan-American League R8: Team USA Northwest vs. Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/565658",
+      "@id": "https://api.chess.com/pub/match/565658",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/565658/15"
+    },
+    {
+      "name": "2015 Pan-American League R2:Team USA: Southwest - Team M\u00e9xico",
+      "url": "https://www.chess.com/club/matches/500076",
+      "@id": "https://api.chess.com/pub/match/500076",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/500076/8"
+    },
+    {
+      "name": "2015 Pan-American League R5:Team Brazil vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/533106",
+      "@id": "https://api.chess.com/pub/match/533106",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "checkmated"
+      },
+      "board": "https://api.chess.com/pub/match/533106/10"
+    },
+    {
+      "name": "2016 Pan-American League R6: Team M\u00e9xico vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/680580",
+      "@id": "https://api.chess.com/pub/match/680580",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/680580/9"
+    },
+    {
+      "name": "2016 Pan-American League R5:Team USA Southwest vs Equipo/Team Chile",
+      "url": "https://www.chess.com/club/matches/671328",
+      "@id": "https://api.chess.com/pub/match/671328",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/671328/9"
+    },
+    {
+      "name": "2016 Pan-American League R7:Team USA Southwest vs Team Brazil",
+      "url": "https://www.chess.com/club/matches/690896",
+      "@id": "https://api.chess.com/pub/match/690896",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/690896/6"
+    },
+    {
+      "name": "2016 Pan-American League R8: Team Canada vs. Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/702160",
+      "@id": "https://api.chess.com/pub/match/702160",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/702160/8"
+    },
+    {
+      "name": "2016 Pan-American League R9:Team USA Southwest vs Team Argentina",
+      "url": "https://www.chess.com/club/matches/717572",
+      "@id": "https://api.chess.com/pub/match/717572",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/717572/11"
+    },
+    {
+      "name": "2016 Pan-American League R3: Team USA Southeast vs. Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/645016",
+      "@id": "https://api.chess.com/pub/match/645016",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "insufficient",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/645016/14"
+    },
+    {
+      "name": "2016A US Regional League R1: Team USA Southeast vs. Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/617568",
+      "@id": "https://api.chess.com/pub/match/617568",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/617568/20"
+    },
+    {
+      "name": "2016A US Regional League R2:Team USA: Southwest vs Team USA: North-Central",
+      "url": "https://www.chess.com/club/matches/627310",
+      "@id": "https://api.chess.com/pub/match/627310",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/627310/10"
+    },
+    {
+      "name": "2016A US Regional League R3: Team USA: Southwest vs Team USA: Northwest",
+      "url": "https://www.chess.com/club/matches/638182",
+      "@id": "https://api.chess.com/pub/match/638182",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "checkmated"
+      },
+      "board": "https://api.chess.com/pub/match/638182/11"
+    },
+    {
+      "name": "2016A US Regional League R4: Team USA: Southeast vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/651874",
+      "@id": "https://api.chess.com/pub/match/651874",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/651874/15"
+    },
+    {
+      "name": "2016A US Regional League R5: Team USA: North-Central vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/663334",
+      "@id": "https://api.chess.com/pub/match/663334",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "checkmated",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/663334/15"
+    },
+    {
+      "name": "2016A US Regional League R6: Team USA: Northwest vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/669022",
+      "@id": "https://api.chess.com/pub/match/669022",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/669022/9"
+    },
+    {
+      "name": "2016B US Regional League R3 (R9): Team USA: Northwest vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/701356",
+      "@id": "https://api.chess.com/pub/match/701356",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/701356/9"
+    },
+    {
+      "name": "2016B US Regional League R5 (R11):Team USA: North-Central vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/724134",
+      "@id": "https://api.chess.com/pub/match/724134",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/724134/8"
+    },
+    {
+      "name": "2016B US Regional League R1 (R7):  Team USA Southeast vs Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/678028",
+      "@id": "https://api.chess.com/pub/match/678028",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/678028/13"
+    },
+    {
+      "name": "2016B US Regional League R2 (R8):Team USA: Southwest vs Team USA: North-Central",
+      "url": "https://www.chess.com/club/matches/696436",
+      "@id": "https://api.chess.com/pub/match/696436",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/696436/7"
+    },
+    {
+      "name": "2017 US Regional League R1: Team USA Southeast vs Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/764095",
+      "@id": "https://api.chess.com/pub/match/764095",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/764095/11"
+    },
+    {
+      "name": "Belarus vs Team  USA",
+      "url": "https://www.chess.com/club/matches/943492",
+      "@id": "https://api.chess.com/pub/match/943492",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/943492/25"
+    },
+    {
+      "name": "BHARAT vs USA : Southwest- Nations Cup 2014- Round 11",
+      "url": "https://www.chess.com/club/matches/477334",
+      "@id": "https://api.chess.com/pub/match/477334",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/477334/19"
+    },
+    {
+      "name": "CHESS 960 WL 2018 R9: ARGENTINA vs. USA",
+      "url": "https://www.chess.com/club/matches/934402",
+      "@id": "https://api.chess.com/pub/match/934402",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/934402/21"
+    },
+    {
+      "name": "Chess 960 WL 2016 R4: Team USA vs. Team Ukraine",
+      "url": "https://www.chess.com/club/matches/656768",
+      "@id": "https://api.chess.com/pub/match/656768",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/656768/23"
+    },
+    {
+      "name": "Chess960 WL2015 R2: Team USA vs. Team Ukraine",
+      "url": "https://www.chess.com/club/matches/498240",
+      "@id": "https://api.chess.com/pub/match/498240",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/498240/47"
+    },
+    {
+      "name": "Chess960 WL2015 R5: Team USA vs. Team England",
+      "url": "https://www.chess.com/club/matches/530958",
+      "@id": "https://api.chess.com/pub/match/530958",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/530958/32"
+    },
+    {
+      "name": "Chess960 WL2015 R3: Team USA vs. Team Croatia",
+      "url": "https://www.chess.com/club/matches/509290",
+      "@id": "https://api.chess.com/pub/match/509290",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/509290/45"
+    },
+    {
+      "name": "Chess960 WL2015 R6: Team USA vs. Srbija Tim",
+      "url": "https://www.chess.com/club/matches/542694",
+      "@id": "https://api.chess.com/pub/match/542694",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/542694/26"
+    },
+    {
+      "name": "Chess960 WL2015 R8: Team USA vs. Team Russia",
+      "url": "https://www.chess.com/club/matches/563752",
+      "@id": "https://api.chess.com/pub/match/563752",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/563752/24"
+    },
+    {
+      "name": "Chess960 WL2015 R9: Team USA vs. Team Slovakia",
+      "url": "https://www.chess.com/club/matches/574742",
+      "@id": "https://api.chess.com/pub/match/574742",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "checkmated"
+      },
+      "board": "https://api.chess.com/pub/match/574742/15"
+    },
+    {
+      "name": "Chess960 WL2016 R8: Team USA vs Team Bulgaria",
+      "url": "https://www.chess.com/club/matches/701620",
+      "@id": "https://api.chess.com/pub/match/701620",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/701620/16"
+    },
+    {
+      "name": "Chess960 WL2016 R9:Team Russia vs Team USA",
+      "url": "https://www.chess.com/club/matches/712016",
+      "@id": "https://api.chess.com/pub/match/712016",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/712016/17"
+    },
+    {
+      "name": "Chess960 WL2016 R1: Team USA vs. Team Romania",
+      "url": "https://www.chess.com/club/matches/621398",
+      "@id": "https://api.chess.com/pub/match/621398",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/621398/22"
+    },
+    {
+      "name": "Chess960 WL2016 R3: Team USA vs. Team Iran",
+      "url": "https://www.chess.com/club/matches/644586",
+      "@id": "https://api.chess.com/pub/match/644586",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/644586/23"
+    },
+    {
+      "name": "Chess960 WL2016 R5: Team USA vs. Team Armenia",
+      "url": "https://www.chess.com/club/matches/666346",
+      "@id": "https://api.chess.com/pub/match/666346",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/666346/17"
+    },
+    {
+      "name": "Chess960 WL2016 R6: Team USA vs. Team Slovakia",
+      "url": "https://www.chess.com/club/matches/677710",
+      "@id": "https://api.chess.com/pub/match/677710",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/677710/13"
+    },
+    {
+      "name": "Chess960 WL2016, R7: Team USA vs Team Poland",
+      "url": "https://www.chess.com/club/matches/688608",
+      "@id": "https://api.chess.com/pub/match/688608",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/688608/15"
+    },
+    {
+      "name": "Chess960 WL2017 R3: Team Armenia vs Team USA",
+      "url": "https://www.chess.com/club/matches/771874",
+      "@id": "https://api.chess.com/pub/match/771874",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/771874/17"
+    },
+    {
+      "name": "Chess960 WL2017 R4: Chess Team Holland vs Team USA",
+      "url": "https://www.chess.com/club/matches/782616",
+      "@id": "https://api.chess.com/pub/match/782616",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/782616/20"
+    },
+    {
+      "name": "Chess960 WL2017 R5: Team USA vs Team Philippines United",
+      "url": "https://www.chess.com/club/matches/792322",
+      "@id": "https://api.chess.com/pub/match/792322",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/792322/14"
+    },
+    {
+      "name": "Chess960 WL2017 R6: Team USA vs Team Spain",
+      "url": "https://www.chess.com/club/matches/801802",
+      "@id": "https://api.chess.com/pub/match/801802",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/801802/18"
+    },
+    {
+      "name": "Chess960 WL2017 R7: Team USA vs Team Hungary - Magyar Sakkegylet",
+      "url": "https://www.chess.com/club/matches/811528",
+      "@id": "https://api.chess.com/pub/match/811528",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/811528/17"
+    },
+    {
+      "name": "Chess960 WL2017 R8: Team USA vs Team Poland",
+      "url": "https://www.chess.com/club/matches/820472",
+      "@id": "https://api.chess.com/pub/match/820472",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/820472/10"
+    },
+    {
+      "name": "Chess960 WL2017 R9: Team USA vs Team Croatia",
+      "url": "https://www.chess.com/club/matches/829596",
+      "@id": "https://api.chess.com/pub/match/829596",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/829596/17"
+    },
+    {
+      "name": "Chess960 WL2018 R3: Team USA vs Team France",
+      "url": "https://www.chess.com/club/matches/881688",
+      "@id": "https://api.chess.com/pub/match/881688",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/881688/28"
+    },
+    {
+      "name": "Chess960 WL2018 R4: Team Armenia vs Team  USA",
+      "url": "https://www.chess.com/club/matches/889782",
+      "@id": "https://api.chess.com/pub/match/889782",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/889782/16"
+    },
+    {
+      "name": "Chess960 WL2018 R6: Team of the Czech Republic vs Team  USA",
+      "url": "https://www.chess.com/club/matches/909100",
+      "@id": "https://api.chess.com/pub/match/909100",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/909100/18"
+    },
+    {
+      "name": "Chess960 WL2018 R8: Team Kazakhstan vs Team  USA",
+      "url": "https://www.chess.com/club/matches/927102",
+      "@id": "https://api.chess.com/pub/match/927102",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/927102/16"
+    },
+    {
+      "name": "Chess960 WL2018 R1: Team USA vs Team England",
+      "url": "https://www.chess.com/club/matches/867090",
+      "@id": "https://api.chess.com/pub/match/867090",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/867090/20"
+    },
+    {
+      "name": "Chess960 WL2018 R2: Team USA vs Team Romania",
+      "url": "https://www.chess.com/club/matches/874648",
+      "@id": "https://api.chess.com/pub/match/874648",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/874648/22"
+    },
+    {
+      "name": "Chess960 WL2018 R7: Team USA vs Team Canada",
+      "url": "https://www.chess.com/club/matches/917802",
+      "@id": "https://api.chess.com/pub/match/917802",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/917802/17"
+    },
+    {
+      "name": "Chess960 WL2019 R2: Team USA vs Team Moldova",
+      "url": "https://www.chess.com/club/matches/979864",
+      "@id": "https://api.chess.com/pub/match/979864",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "checkmated",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/979864/19"
+    },
+    {
+      "name": "Chess960 WL2019 R9: Team Canada vs. Team USA",
+      "url": "https://www.chess.com/club/matches/1047338",
+      "@id": "https://api.chess.com/pub/match/1047338",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/1047338/18"
+    },
+    {
+      "name": "Chess960 WL2019 R4: Team USA vs Team England",
+      "url": "https://www.chess.com/club/matches/1000914",
+      "@id": "https://api.chess.com/pub/match/1000914",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/1000914/23"
+    },
+    {
+      "name": "Chess960 World League 2017 R1: Team USA vs. Team of the Czech Republic",
+      "url": "https://www.chess.com/club/matches/753066",
+      "@id": "https://api.chess.com/pub/match/753066",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "checkmated"
+      },
+      "board": "https://api.chess.com/pub/match/753066/11"
+    },
+    {
+      "name": "Friendly: Team Ukraine vs Team  USA Under 2000",
+      "url": "https://www.chess.com/club/matches/727610",
+      "@id": "https://api.chess.com/pub/match/727610",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/727610/50"
+    },
+    {
+      "name": "lets play",
+      "url": "https://www.chess.com/club/matches/25196",
+      "@id": "https://api.chess.com/pub/match/25196",
+      "club": "https://api.chess.com/pub/club/hispanohablantes",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/25196/2"
+    },
+    {
+      "name": "Match Name: Pan-American League 2013 R1:  Team Venezuela vs Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/213774",
+      "@id": "https://api.chess.com/pub/match/213774",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/213774/16"
+    },
+    {
+      "name": "Nation Cup 2014 Round # 7",
+      "url": "https://www.chess.com/club/matches/417248",
+      "@id": "https://api.chess.com/pub/match/417248",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/417248/15"
+    },
+    {
+      "name": "Nations Cup 2014 R5: Team Ukraine vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/399848",
+      "@id": "https://api.chess.com/pub/match/399848",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/399848/14"
+    },
+    {
+      "name": "Nations cup 2014 - round 8",
+      "url": "https://www.chess.com/club/matches/424748",
+      "@id": "https://api.chess.com/pub/match/424748",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/424748/14"
+    },
+    {
+      "name": "Nations cup 2014-round 10",
+      "url": "https://www.chess.com/club/matches/460678",
+      "@id": "https://api.chess.com/pub/match/460678",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/460678/9"
+    },
+    {
+      "name": "Nations Cup 2014: Round 1",
+      "url": "https://www.chess.com/club/matches/354938",
+      "@id": "https://api.chess.com/pub/match/354938",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/354938/26"
+    },
+    {
+      "name": "Nations Cup 2014 - round 9",
+      "url": "https://www.chess.com/club/matches/451592",
+      "@id": "https://api.chess.com/pub/match/451592",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/451592/9"
+    },
+    {
+      "name": "Nations Cup Round 4: Team USA: Southwest vs Team Australia",
+      "url": "https://www.chess.com/club/matches/385934",
+      "@id": "https://api.chess.com/pub/match/385934",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/385934/13"
+    },
+    {
+      "name": "Nations Cup Round 3",
+      "url": "https://www.chess.com/club/matches/372720",
+      "@id": "https://api.chess.com/pub/match/372720",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "repetition",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/372720/22"
+    },
+    {
+      "name": "Pan American League 2013 R2: Team USA vs. Team USA - Southwest",
+      "url": "https://www.chess.com/club/matches/230514",
+      "@id": "https://api.chess.com/pub/match/230514",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/230514/17"
+    },
+    {
+      "name": "Pan-American League 2013 R3: Team USA Southwest vs Team Canada",
+      "url": "https://www.chess.com/club/matches/248694",
+      "@id": "https://api.chess.com/pub/match/248694",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "checkmated"
+      },
+      "board": "https://api.chess.com/pub/match/248694/17"
+    },
+    {
+      "name": "Pan-American League 2013 R4: Team USA: Southwest vs. Team Argentina",
+      "url": "https://www.chess.com/club/matches/264772",
+      "@id": "https://api.chess.com/pub/match/264772",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "checkmated"
+      },
+      "board": "https://api.chess.com/pub/match/264772/14"
+    },
+    {
+      "name": "Pan-American League 2013 R5: Team USA: Southwest vs. Team USA: Southeast",
+      "url": "https://www.chess.com/club/matches/279130",
+      "@id": "https://api.chess.com/pub/match/279130",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/279130/19"
+    },
+    {
+      "name": "Pan-American League 2013 R6: Team USA: Southwest vs. Team Brazil",
+      "url": "https://www.chess.com/club/matches/292478",
+      "@id": "https://api.chess.com/pub/match/292478",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/292478/17"
+    },
+    {
+      "name": "Pan-American League R6: Argentina B vs. USA: Sout West",
+      "url": "https://www.chess.com/club/matches/796340",
+      "@id": "https://api.chess.com/pub/match/796340",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/796340/9"
+    },
+    {
+      "name": "Pan-American League 2013 R7: Team USA: Southwest vs. Team Columbia",
+      "url": "https://www.chess.com/club/matches/311840",
+      "@id": "https://api.chess.com/pub/match/311840",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/311840/8"
+    },
+    {
+      "name": "Pan-American League 2016 R4: Team Venezuela vs. Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/657492",
+      "@id": "https://api.chess.com/pub/match/657492",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/657492/8"
+    },
+    {
+      "name": "Practice (CC)",
+      "url": "https://www.chess.com/club/matches/383456",
+      "@id": "https://api.chess.com/pub/match/383456",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/383456/9"
+    },
+    {
+      "name": "TDT Challenge upto 2200",
+      "url": "https://www.chess.com/club/matches/788",
+      "@id": "https://api.chess.com/pub/match/788",
+      "club": "https://api.chess.com/pub/club/the-seniors-club",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/788/3"
+    },
+    {
+      "name": "the  old masters heh heh",
+      "url": "https://www.chess.com/club/matches/789",
+      "@id": "https://api.chess.com/pub/match/789",
+      "club": "https://api.chess.com/pub/club/the-seniors-club",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/789/3"
+    },
+    {
+      "name": "The Canadian Team-Team USA 2016 Challenge",
+      "url": "https://www.chess.com/club/matches/626094",
+      "@id": "https://api.chess.com/pub/match/626094",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/626094/48"
+    },
+    {
+      "name": "TI vs Team USA : Southwest (<1750 3d/mv)",
+      "url": "https://www.chess.com/club/matches/123792",
+      "@id": "https://api.chess.com/pub/match/123792",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/123792/1"
+    },
+    {
+      "name": "TM C.L. 2015 Div. B R4:TUSA-SW vs TUK",
+      "url": "https://www.chess.com/club/matches/546726",
+      "@id": "https://api.chess.com/pub/match/546726",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "checkmated"
+      },
+      "board": "https://api.chess.com/pub/match/546726/16"
+    },
+    {
+      "name": "TMCL 2016 Sub-Div. C4 R2 The United States Chess Club vs. Team USA:Southwest",
+      "url": "https://www.chess.com/club/matches/628420",
+      "@id": "https://api.chess.com/pub/match/628420",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/628420/12"
+    },
+    {
+      "name": "TMCL960 2017: Sub-Div. B2, Round 2: France/Deutschland Group vs Team  USA",
+      "url": "https://www.chess.com/club/matches/728320",
+      "@id": "https://api.chess.com/pub/match/728320",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/728320/8"
+    },
+    {
+      "name": "USA Southwest - Budapest, a friendly match",
+      "url": "https://www.chess.com/club/matches/728988",
+      "@id": "https://api.chess.com/pub/match/728988",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/728988/6"
+    },
+    {
+      "name": "WL2013 R1: Team USA: Southwest vs. Team Spain",
+      "url": "https://www.chess.com/club/matches/240324",
+      "@id": "https://api.chess.com/pub/match/240324",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/240324/28"
+    },
+    {
+      "name": "WL2013 R2: Team Slovakia vs. Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/247328",
+      "@id": "https://api.chess.com/pub/match/247328",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/247328/30"
+    },
+    {
+      "name": "WL2013 R6: Team USA: Southwest vs. Team Turkey",
+      "url": "https://www.chess.com/club/matches/284546",
+      "@id": "https://api.chess.com/pub/match/284546",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/284546/31"
+    },
+    {
+      "name": "WL2013 R7: Team USA: Southwest vs. Team Brazil",
+      "url": "https://www.chess.com/club/matches/295566",
+      "@id": "https://api.chess.com/pub/match/295566",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/295566/24"
+    },
+    {
+      "name": "WL2013 R8: Team USA: Southwest vs. Team Australia",
+      "url": "https://www.chess.com/club/matches/308772",
+      "@id": "https://api.chess.com/pub/match/308772",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/308772/20"
+    },
+    {
+      "name": "WL2013 R9: Team USA: Southwest vs. Team Sweden",
+      "url": "https://www.chess.com/club/matches/318790",
+      "@id": "https://api.chess.com/pub/match/318790",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/318790/24"
+    },
+    {
+      "name": "WL2013 Round 3: Team USA: Southwest vs. Team Greece",
+      "url": "https://www.chess.com/club/matches/254392",
+      "@id": "https://api.chess.com/pub/match/254392",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/254392/26"
+    },
+    {
+      "name": "WL2015 R2: Team Brazil vs Team USA",
+      "url": "https://www.chess.com/club/matches/494360",
+      "@id": "https://api.chess.com/pub/match/494360",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/494360/77"
+    },
+    {
+      "name": "WL2015 R3: Team England vs Team USA",
+      "url": "https://www.chess.com/club/matches/502442",
+      "@id": "https://api.chess.com/pub/match/502442",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/502442/122"
+    },
+    {
+      "name": "WL2015 R4: Team USA vs. Team Germany",
+      "url": "https://www.chess.com/club/matches/514614",
+      "@id": "https://api.chess.com/pub/match/514614",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/514614/112"
+    },
+    {
+      "name": "WL2015 R5: Team USA vs. Team Russia",
+      "url": "https://www.chess.com/club/matches/525792",
+      "@id": "https://api.chess.com/pub/match/525792",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/525792/187"
+    },
+    {
+      "name": "WL2015 R6: Team USA vs. Team Armenia",
+      "url": "https://www.chess.com/club/matches/536264",
+      "@id": "https://api.chess.com/pub/match/536264",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/536264/132"
+    },
+    {
+      "name": "WL2015 R7: Team USA vs Team France",
+      "url": "https://www.chess.com/club/matches/547736",
+      "@id": "https://api.chess.com/pub/match/547736",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/547736/91"
+    },
+    {
+      "name": "WL2016 R2: Team Ukraine vs Team USA",
+      "url": "https://www.chess.com/club/matches/628700",
+      "@id": "https://api.chess.com/pub/match/628700",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/628700/91"
+    },
+    {
+      "name": "WL2016 R3: Team USA vs. Team Iran",
+      "url": "https://www.chess.com/club/matches/639646",
+      "@id": "https://api.chess.com/pub/match/639646",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/639646/81"
+    },
+    {
+      "name": "WL2016 R5: Team USA vs. Team Germany",
+      "url": "https://www.chess.com/club/matches/661528",
+      "@id": "https://api.chess.com/pub/match/661528",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/661528/111"
+    },
+    {
+      "name": "WL2016 R6: Team England vs. Team USA",
+      "url": "https://www.chess.com/club/matches/671830",
+      "@id": "https://api.chess.com/pub/match/671830",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/671830/100"
+    },
+    {
+      "name": "WL2016 R7: Team Russia vs. Team USA",
+      "url": "https://www.chess.com/club/matches/682416",
+      "@id": "https://api.chess.com/pub/match/682416",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/682416/101"
+    },
+    {
+      "name": "WL2016 R8: Team USA vs Team Canada",
+      "url": "https://www.chess.com/club/matches/694818",
+      "@id": "https://api.chess.com/pub/match/694818",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "repetition",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/694818/92"
+    },
+    {
+      "name": "WL2016 R9: Team USA vs Team Romania",
+      "url": "https://www.chess.com/club/matches/706890",
+      "@id": "https://api.chess.com/pub/match/706890",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/706890/88"
+    },
+    {
+      "name": "WL2016 Round 1: Team USA vs. Srbija Tim",
+      "url": "https://www.chess.com/club/matches/616442",
+      "@id": "https://api.chess.com/pub/match/616442",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/616442/128"
+    },
+    {
+      "name": "WL2016 Round 4: Team Brazil vs Team USA",
+      "url": "https://www.chess.com/club/matches/649736",
+      "@id": "https://api.chess.com/pub/match/649736",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/649736/97"
+    },
+    {
+      "name": "WL2017 R2: Team USA vs. Team Croatia",
+      "url": "https://www.chess.com/club/matches/758458",
+      "@id": "https://api.chess.com/pub/match/758458",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/758458/73"
+    },
+    {
+      "name": "WL2017 R3: M??xico vs USA",
+      "url": "https://www.chess.com/club/matches/767737",
+      "@id": "https://api.chess.com/pub/match/767737",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/767737/109"
+    },
+    {
+      "name": "WL2017 R4: Team USA vs. Team Slovakia",
+      "url": "https://www.chess.com/club/matches/777436",
+      "@id": "https://api.chess.com/pub/match/777436",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/777436/99"
+    },
+    {
+      "name": "WL2017 R5: Team USA vs. Team Romania",
+      "url": "https://www.chess.com/club/matches/787600",
+      "@id": "https://api.chess.com/pub/match/787600",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/787600/83"
+    },
+    {
+      "name": "WL2017 R6: Team USA vs Team Brazil",
+      "url": "https://www.chess.com/club/matches/797544",
+      "@id": "https://api.chess.com/pub/match/797544",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/797544/82"
+    },
+    {
+      "name": "WL2017 R7: Team USA vs Team Argentina",
+      "url": "https://www.chess.com/club/matches/806282",
+      "@id": "https://api.chess.com/pub/match/806282",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/806282/110"
+    },
+    {
+      "name": "WL2017 R8: Team USA vs Team of the Czech Republic",
+      "url": "https://www.chess.com/club/matches/816492",
+      "@id": "https://api.chess.com/pub/match/816492",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/816492/73"
+    },
+    {
+      "name": "WL2017 R9: Team USA vs Team Bulgaria",
+      "url": "https://www.chess.com/club/matches/825576",
+      "@id": "https://api.chess.com/pub/match/825576",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/825576/90"
+    },
+    {
+      "name": "WL2018 R1: Chess Team Holland vs Team  USA",
+      "url": "https://www.chess.com/club/matches/862438",
+      "@id": "https://api.chess.com/pub/match/862438",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/862438/107"
+    },
+    {
+      "name": "WL2018 R2: Team Germany vs Team  USA",
+      "url": "https://www.chess.com/club/matches/870248",
+      "@id": "https://api.chess.com/pub/match/870248",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/870248/100"
+    },
+    {
+      "name": "WL2018 R4: Team Bulgaria vs Team USA",
+      "url": "https://www.chess.com/club/matches/886312",
+      "@id": "https://api.chess.com/pub/match/886312",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/886312/65"
+    },
+    {
+      "name": "WL2018 R6: Team USA vs Team Australia",
+      "url": "https://www.chess.com/club/matches/903022",
+      "@id": "https://api.chess.com/pub/match/903022",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/903022/83"
+    },
+    {
+      "name": "WL2018 R9: Team of the Czech Republic vs Team  USA",
+      "url": "https://www.chess.com/club/matches/930526",
+      "@id": "https://api.chess.com/pub/match/930526",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "checkmated"
+      },
+      "board": "https://api.chess.com/pub/match/930526/78"
+    },
+    {
+      "name": "WL2019 Div B R1 Team USA vs Team Croatia",
+      "url": "https://www.chess.com/club/matches/963236",
+      "@id": "https://api.chess.com/pub/match/963236",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/963236/56"
+    },
+    {
+      "name": "WL2019 R2: Team Canada vs. Team USA",
+      "url": "https://www.chess.com/club/matches/972930",
+      "@id": "https://api.chess.com/pub/match/972930",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/972930/93"
+    },
+    {
+      "name": "WL2019 R5: Team Germany vs Team  USA",
+      "url": "https://www.chess.com/club/matches/1004331",
+      "@id": "https://api.chess.com/pub/match/1004331",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/1004331/83"
+    },
+    {
+      "name": "WL2019 R7: Team USA vs Team Slovakia",
+      "url": "https://www.chess.com/club/matches/1022838",
+      "@id": "https://api.chess.com/pub/match/1022838",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/1022838/96"
+    },
+    {
+      "name": "World League 1601-2000, Exhibition Round: Canada vs. USA Southwest",
+      "url": "https://www.chess.com/club/matches/2582",
+      "@id": "https://api.chess.com/pub/match/2582",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/2582/3"
+    },
+    {
+      "name": "World League 2010 R2: Team Italia vs. Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/28599",
+      "@id": "https://api.chess.com/pub/match/28599",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/28599/27"
+    },
+    {
+      "name": "World League 2010 R4: Team USA: Northeast vs. Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/34884",
+      "@id": "https://api.chess.com/pub/match/34884",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/34884/26"
+    },
+    {
+      "name": "World League 2010 R6, Germany vs. USA Southwest",
+      "url": "https://www.chess.com/club/matches/42600",
+      "@id": "https://api.chess.com/pub/match/42600",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/42600/38"
+    },
+    {
+      "name": "World League 2010 R8: Team Canada vs. Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/51470",
+      "@id": "https://api.chess.com/pub/match/51470",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/51470/43"
+    },
+    {
+      "name": "World League 2011 R2: Team USA SW vs.Team Greece",
+      "url": "https://www.chess.com/club/matches/65000",
+      "@id": "https://api.chess.com/pub/match/65000",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/65000/36"
+    },
+    {
+      "name": "World League 2011 R4: Team USA Southwest vs. Team Slovenija",
+      "url": "https://www.chess.com/club/matches/73658",
+      "@id": "https://api.chess.com/pub/match/73658",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/73658/34"
+    },
+    {
+      "name": "World League 2011 R6: Team Germany vs. Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/85914",
+      "@id": "https://api.chess.com/pub/match/85914",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/85914/34"
+    },
+    {
+      "name": "World League 2011 R8: Team USA: Southwest vs. Team Canada",
+      "url": "https://www.chess.com/club/matches/96021",
+      "@id": "https://api.chess.com/pub/match/96021",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/96021/40"
+    },
+    {
+      "name": "World League 2012 R2: Bosnia and Herzegovina vs. Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/121591",
+      "@id": "https://api.chess.com/pub/match/121591",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/121591/46"
+    },
+    {
+      "name": "World League 2012 R3: Team Romania vs. Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/131154",
+      "@id": "https://api.chess.com/pub/match/131154",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/131154/47"
+    },
+    {
+      "name": "World League 2012 R5: Team USA Southwest vs. Team Sweden",
+      "url": "https://www.chess.com/club/matches/155844",
+      "@id": "https://api.chess.com/pub/match/155844",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/155844/49"
+    },
+    {
+      "name": "World League 2012 R7: Team USA: Southwest vs. Team India",
+      "url": "https://www.chess.com/club/matches/184232",
+      "@id": "https://api.chess.com/pub/match/184232",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/184232/25"
+    },
+    {
+      "name": "World League 2010 R1 Open: Team USA Southwest vs. Team Greece",
+      "url": "https://www.chess.com/club/matches/25921",
+      "@id": "https://api.chess.com/pub/match/25921",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/25921/21"
+    },
+    {
+      "name": "World League 2010 Round 5 - USA Southwest vs Australia",
+      "url": "https://www.chess.com/club/matches/37994",
+      "@id": "https://api.chess.com/pub/match/37994",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/37994/43"
+    },
+    {
+      "name": "World League 2010 R7: Team USA SW vs.Team Philippines",
+      "url": "https://www.chess.com/club/matches/46860",
+      "@id": "https://api.chess.com/pub/match/46860",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/46860/37"
+    },
+    {
+      "name": "World League 2011 R1: Team USA Southwest vs. Team Turkey",
+      "url": "https://www.chess.com/club/matches/59176",
+      "@id": "https://api.chess.com/pub/match/59176",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/59176/43"
+    },
+    {
+      "name": "World League 2011 R3:  Team USA SW vs. Team Iran",
+      "url": "https://www.chess.com/club/matches/69586",
+      "@id": "https://api.chess.com/pub/match/69586",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/69586/36"
+    },
+    {
+      "name": "World League 2011 R5: Team India vs. Team USA Southwest",
+      "url": "https://www.chess.com/club/matches/78598",
+      "@id": "https://api.chess.com/pub/match/78598",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/78598/29"
+    },
+    {
+      "name": "World League 2011 R7: Team Romania vs. Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/90141",
+      "@id": "https://api.chess.com/pub/match/90141",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/90141/39"
+    },
+    {
+      "name": "World League 2012R1 Team England vs Team USA: Southwest",
+      "url": "https://www.chess.com/club/matches/108599",
+      "@id": "https://api.chess.com/pub/match/108599",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/108599/72"
+    },
+    {
+      "name": "World League 2012 R6: Team USA: Southwest vs. Team Slovakia",
+      "url": "https://www.chess.com/club/matches/169044",
+      "@id": "https://api.chess.com/pub/match/169044",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/169044/37"
+    },
+    {
+      "name": "World League 2012 R8: Team USA: Southwest vs. Team Greece",
+      "url": "https://www.chess.com/club/matches/200322",
+      "@id": "https://api.chess.com/pub/match/200322",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/200322/32"
+    },
+    {
+      "name": "World League 2013 R5: Team Indonesia vs Team USA-Southwest",
+      "url": "https://www.chess.com/club/matches/272552",
+      "@id": "https://api.chess.com/pub/match/272552",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "agreed",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/272552/28"
+    },
+    {
+      "name": "World League R3 : Team Bosnia-Herzegovina vs Team USA SouthWest",
+      "url": "https://www.chess.com/club/matches/31909",
+      "@id": "https://api.chess.com/pub/match/31909",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/31909/24"
+    },
+    {
+      "name": "World League R4:  Team USA Southwest vs. Team Croatia",
+      "url": "https://www.chess.com/club/matches/140732",
+      "@id": "https://api.chess.com/pub/match/140732",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/140732/42"
+    },
+    {
+      "name": "World League Rd. 6: Team USA: Southwest v Team China",
+      "url": "https://www.chess.com/club/matches/14814",
+      "@id": "https://api.chess.com/pub/match/14814",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/14814/24"
+    },
+    {
+      "name": "WORLD LEAGUE Round 5: Romania vs USA Southwest",
+      "url": "https://www.chess.com/club/matches/12803",
+      "@id": "https://api.chess.com/pub/match/12803",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "agreed"
+      },
+      "board": "https://api.chess.com/pub/match/12803/39"
+    },
+    {
+      "name": "World League Round 10: Brazil vs. USA Southwest",
+      "url": "https://www.chess.com/club/matches/21735",
+      "@id": "https://api.chess.com/pub/match/21735",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/21735/14"
+    },
+    {
+      "name": "World League Round 1: Team USA Southwest vs. Team USA Northwest",
+      "url": "https://www.chess.com/club/matches/4835",
+      "@id": "https://api.chess.com/pub/match/4835",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/4835/26"
+    },
+    {
+      "name": "World League, Round 11 USA SW vs. Russia",
+      "url": "https://www.chess.com/club/matches/23352",
+      "@id": "https://api.chess.com/pub/match/23352",
+      "club": "https://api.chess.com/pub/club/team-usa-southwest",
+      "results": {
+        "played_as_white": "resigned",
+        "played_as_black": "resigned"
+      },
+      "board": "https://api.chess.com/pub/match/23352/31"
+    }
+  ],
+  "in_progress": [
+    {
+      "name": "PANAM2020 R1: Team USA vs Team Argentina",
+      "url": "https://www.chess.com/club/matches/1103618",
+      "@id": "https://api.chess.com/pub/match/1103618",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win"
+      },
+      "board": "https://api.chess.com/pub/match/1103618/75"
+    },
+    {
+      "name": "WL2020 R3: Team  USA vs Team Poland",
+      "url": "https://www.chess.com/club/matches/1100380",
+      "@id": "https://api.chess.com/pub/match/1100380",
+      "club": "https://api.chess.com/pub/club/team-usa",
+      "results": {
+        "played_as_white": "win",
+        "played_as_black": "win"
+      },
+      "board": "https://api.chess.com/pub/match/1100380/76"
+    }
+  ],
+  "registered": []
+}

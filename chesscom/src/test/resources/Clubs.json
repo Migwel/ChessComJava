@@ -1,0 +1,220 @@
+{
+  "clubs": [
+    {
+      "@id": "https://www.chess.com/club/open-discussion",
+      "name": "Open Discussion",
+      "last_activity": 1554561503,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/3541.45d6eb2c.50x50o.af307b09ebe7.png",
+      "url": "https://www.chess.com/club/open-discussion",
+      "joined": 1468775412
+    },
+    {
+      "@id": "https://www.chess.com/club/chesscom---tactics-trainer-approvers",
+      "name": "Chess.com - Tactics Trainer Approvers",
+      "last_activity": 1573604476,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/4146.cd1f3309.50x50o.2daf5479afb9.gif",
+      "url": "https://www.chess.com/club/chesscom---tactics-trainer-approvers",
+      "joined": 1210299490
+    },
+    {
+      "@id": "https://www.chess.com/club/chesscom-staff",
+      "name": "Chess.com Staff",
+      "last_activity": 1587927530,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/4205.0c07949b.50x50o.40ce974d8493.png",
+      "url": "https://www.chess.com/club/chesscom-staff",
+      "joined": 1215559174
+    },
+    {
+      "@id": "https://www.chess.com/club/team-usa-southwest",
+      "name": "Team USA: Southwest",
+      "last_activity": 1548387536,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/4502.e4147797.50x50o.6a5ef662fda4.gif",
+      "url": "https://www.chess.com/club/team-usa-southwest",
+      "joined": 1228969558
+    },
+    {
+      "@id": "https://www.chess.com/club/apple-iphone--ipod-touch--ipad-owners",
+      "name": "Apple iPhone / iPod Touch / iPad Owners",
+      "last_activity": 1556578940,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/5197.f96bc617.50x50o.32369396eb2f.jpg",
+      "url": "https://www.chess.com/club/apple-iphone--ipod-touch--ipad-owners",
+      "joined": 1347824939
+    },
+    {
+      "@id": "https://www.chess.com/club/chess-com-ios-club",
+      "name": "Chess.com iOS Club",
+      "last_activity": 1587424602,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/5930.001500ea.50x50o.f79defdebb0a.png",
+      "url": "https://www.chess.com/club/chess-com-ios-club",
+      "joined": 1244223610
+    },
+    {
+      "@id": "https://www.chess.com/club/cheating-forum",
+      "name": "Cheating Forum",
+      "last_activity": 1587672968,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/6041.c3eaa1d3.50x50o.93430d67e049.png",
+      "url": "https://www.chess.com/club/cheating-forum",
+      "joined": 1385526211
+    },
+    {
+      "@id": "https://www.chess.com/club/team-usa",
+      "name": "Team  USA",
+      "last_activity": 1587424614,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/6589.88736429.50x50o.968cc063a111.jpeg",
+      "url": "https://www.chess.com/club/team-usa",
+      "joined": 1422595069
+    },
+    {
+      "@id": "https://www.chess.com/club/chess-com-android-club",
+      "name": "Chess.com Android Club",
+      "last_activity": 1585425073,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/7577.d3ac27fe.50x50o.bdfeab8aef45.png",
+      "url": "https://www.chess.com/club/chess-com-android-club",
+      "joined": 1260222237
+    },
+    {
+      "@id": "https://www.chess.com/club/chess-comtv",
+      "name": "Chess.comTV",
+      "last_activity": 1554423392,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/10182.ce48ce37.50x50o.643fa8f292b8.png",
+      "url": "https://www.chess.com/club/chess-comtv",
+      "joined": 1510953592
+    },
+    {
+      "@id": "https://www.chess.com/club/chesscom-translators",
+      "name": "Chess.com Translators",
+      "last_activity": 1587672967,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/11566.39a9f1e2.50x50o.7e0b255836e9.png",
+      "url": "https://www.chess.com/club/chesscom-translators",
+      "joined": 1310836631
+    },
+    {
+      "@id": "https://www.chess.com/club/chesscom-feedback",
+      "name": "Chess.com Feedback",
+      "last_activity": 1587480802,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/12570.10ee4761.50x50o.100d9c5b6383.png",
+      "url": "https://www.chess.com/club/chesscom-feedback",
+      "joined": 1323446511
+    },
+    {
+      "@id": "https://www.chess.com/club/help-and-support",
+      "name": "Help and Support",
+      "last_activity": 1584975798,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/28918.467bb04a.50x50o.1a25f6f23982.png",
+      "url": "https://www.chess.com/club/help-and-support",
+      "joined": 1397058375
+    },
+    {
+      "@id": "https://www.chess.com/club/chess-com-beta",
+      "name": "Chess.com Beta",
+      "last_activity": 1587927594,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/31642.250d6a8a.50x50o.4e9af4a52b77.png",
+      "url": "https://www.chess.com/club/chess-com-beta",
+      "joined": 1409081724
+    },
+    {
+      "@id": "https://www.chess.com/club/wholesale-chess",
+      "name": "Wholesale Chess",
+      "last_activity": 1508624107,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/32248.ef33ac60.50x50o.eb0617eb2c59.jpeg",
+      "url": "https://www.chess.com/club/wholesale-chess",
+      "joined": 1502300432
+    },
+    {
+      "@id": "https://www.chess.com/club/uschess-members-only",
+      "name": "USChess - Members Only",
+      "last_activity": 1510953521,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/34556.1b3f23ae.50x50o.7ece5fea910e.png",
+      "url": "https://www.chess.com/club/uschess-members-only",
+      "joined": 1491603384
+    },
+    {
+      "@id": "https://www.chess.com/club/fair-play-board",
+      "name": "Fair Play Board",
+      "last_activity": 1587480781,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/37944.cfd7aceb.50x50o.3bc1b8c84390.png",
+      "url": "https://www.chess.com/club/fair-play-board",
+      "joined": 1435853400
+    },
+    {
+      "@id": "https://www.chess.com/club/grandmaster-blitz-battle-championship",
+      "name": "Grandmaster Blitz Battle Championship",
+      "last_activity": 1457906845,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/42098.1e10350e.50x50o.d8579be902c9.jpeg",
+      "url": "https://www.chess.com/club/grandmaster-blitz-battle-championship",
+      "joined": 1456508763
+    },
+    {
+      "@id": "https://www.chess.com/club/pro-chess-league",
+      "name": "PRO Chess League",
+      "last_activity": 1557005910,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/44714.061cd91f.50x50o.bd9c4b00937b.png",
+      "url": "https://www.chess.com/club/pro-chess-league",
+      "joined": 1478460005
+    },
+    {
+      "@id": "https://www.chess.com/club/bughouse",
+      "name": "Bughouse",
+      "last_activity": 1556311441,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/45230.36beb64d.50x50o.0eee8b68baf0.png",
+      "url": "https://www.chess.com/club/bughouse",
+      "joined": 1473367395
+    },
+    {
+      "@id": "https://www.chess.com/club/san-jose-hackers-fan-club",
+      "name": "San Jose Hackers Fan Club",
+      "last_activity": 1587480796,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/47556.483f2ad7.50x50o.3dc20b6ba1ef.png",
+      "url": "https://www.chess.com/club/san-jose-hackers-fan-club",
+      "joined": 1484597976
+    },
+    {
+      "@id": "https://www.chess.com/club/not-so-pro-chess-league",
+      "name": "Not-So PRO Chess League",
+      "last_activity": 1501214052,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/53492.4bb39120.50x50o.02532491e401.png",
+      "url": "https://www.chess.com/club/not-so-pro-chess-league",
+      "joined": 1493221589
+    },
+    {
+      "@id": "https://www.chess.com/club/chess-com-v2",
+      "name": "Chess.com V2",
+      "last_activity": 1585461174,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/53654.0d60a2a8.50x50o.e403d07230ed.png",
+      "url": "https://www.chess.com/club/chess-com-v2",
+      "joined": 1484785588
+    },
+    {
+      "@id": "https://www.chess.com/club/chess-com-developer-community",
+      "name": "Chess.com Developer Community",
+      "last_activity": 1587424602,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/57796.67ee0038.50x50o.585842f67281.png",
+      "url": "https://www.chess.com/club/chess-com-developer-community",
+      "joined": 1500311493
+    },
+    {
+      "@id": "https://www.chess.com/club/4-player-chess",
+      "name": "4 Player Chess",
+      "last_activity": 1587592571,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/58632.05947f3b.50x50o.1fb859285191.png",
+      "url": "https://www.chess.com/club/4-player-chess",
+      "joined": 1503711317
+    },
+    {
+      "@id": "https://www.chess.com/club/cccc-club",
+      "name": "CCCC Club",
+      "last_activity": 1586903330,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/66942.528d8fbb.50x50o.e788d7769176.png",
+      "url": "https://www.chess.com/club/cccc-club",
+      "joined": 1535151563
+    },
+    {
+      "@id": "https://www.chess.com/club/northstar",
+      "name": "Northstar",
+      "last_activity": 1584999448,
+      "icon": "https://images.chesscomfiles.com/uploads/v1/group/74040.31f82b20.50x50o.b44665336ae1.png",
+      "url": "https://www.chess.com/club/northstar",
+      "joined": 1551803473
+    }
+  ]
+}
