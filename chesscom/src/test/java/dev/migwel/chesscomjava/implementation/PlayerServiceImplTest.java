@@ -38,26 +38,26 @@ class PlayerServiceImplTest {
     @Test
     void testGetProfile() {
         Player player = playerService.getProfile("erik");
-        assertEquals(player.username(), "erik");
-        assertEquals(player.avatar(), "https://images.chesscomfiles.com/uploads/v1/user/41.f4cbdaf7.200x200o.2da5fc98b62f.jpeg");
-        assertEquals(player.id(), 41);
+        assertEquals("erik", player.username());
+        assertEquals("https://images.chesscomfiles.com/uploads/v1/user/41.f4cbdaf7.200x200o.2da5fc98b62f.jpeg", player.avatar());
+        assertEquals(41, player.id());
         assertFalse(player.isStreamer());
     }
 
     @Test
     void testGetTitledPlayers() {
         TitledPlayers titledPlayers = playerService.getTitledPlayers("GM");
-        assertEquals(titledPlayers.players().size(), 1173);
+        assertEquals(1173, titledPlayers.players().size());
         String titledPlayer = titledPlayers.players().iterator().next();
-        assertEquals(titledPlayer, "124chess");
+        assertEquals("124chess", titledPlayer);
     }
 
     @Test
     void testGetPlayerStats() {
         PlayerStats playerStats = playerService.getPlayerStats("erik");
-        assertEquals(playerStats.fide(), 1707);
-        assertEquals(playerStats.rapidChessResults().best().game(), "https://www.chess.com/live/game/758005361");
-        assertEquals(playerStats.puzzleRushResults().best().score(), 40);
+        assertEquals(1707, playerStats.fide());
+        assertEquals("https://www.chess.com/live/game/758005361", playerStats.rapidChessResults().best().game());
+        assertEquals(40, playerStats.puzzleRushResults().best().score());
     }
 
     @Test

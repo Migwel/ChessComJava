@@ -37,35 +37,35 @@ class GameServiceImplTest {
     @Test
     void testGetCurrentGames() {
         PlayerGames playerGames = gameService.getPlayerCurrentGames("erik");
-        assertEquals(playerGames.games().size(), 20);
+        assertEquals(20, playerGames.games().size());
         PlayerGame playerGame = playerGames.games().iterator().next();
-        assertEquals(playerGame.black(), "https://api.chess.com/pub/player/erik");
-        assertEquals(playerGame.rules(), "chess960");
+        assertEquals("https://api.chess.com/pub/player/erik", playerGame.black());
+        assertEquals("chess960", playerGame.rules());
     }
 
     @Test
     void testGetGamesToMove() {
         PlayerGames gamesToMove = gameService.getPlayerGamesToMove("erik");
-        assertEquals(gamesToMove.games().size(), 5);
+        assertEquals(5, gamesToMove.games().size());
         PlayerGame gameToMove = gamesToMove.games().iterator().next();
-        assertEquals(gameToMove.url(), "https://www.chess.com/daily/game/260767132");
+        assertEquals("https://www.chess.com/daily/game/260767132", gameToMove.url());
     }
 
     @Test
     void testGetPastGames() {
         PlayerArchives pastGames = gameService.getPlayerPastGames("erik");
-        assertEquals(pastGames.archives().size(), 154);
+        assertEquals(154, pastGames.archives().size());
         String pastGame = pastGames.archives().iterator().next();
-        assertEquals(pastGame, "https://api.chess.com/pub/player/erik/games/2007/07");
+        assertEquals("https://api.chess.com/pub/player/erik/games/2007/07", pastGame);
     }
 
     @Test
     void testGetPastGamesInMonth() {
         YearMonth yearMonth = YearMonth.of(2009, 10);
         PlayerPastGames pastGames = gameService.getPlayerPastGames("erik", yearMonth);
-        assertEquals(pastGames.games().size(), 46);
+        assertEquals(46, pastGames.games().size());
         PlayerPastGame pastGame = pastGames.games().iterator().next();
-        assertEquals(pastGame.url(), "https://www.chess.com/daily/game/29099782");
-        assertEquals(pastGame.black().username(), "erik");
+        assertEquals("https://www.chess.com/daily/game/29099782", pastGame.url());
+        assertEquals("erik", pastGame.black().username());
     }
 }

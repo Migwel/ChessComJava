@@ -33,10 +33,10 @@ class StreamerServiceImplTest {
         Streamers streamers = streamerService.getStreamers();
         assertEquals(streamers.streamers().size(), 240);
         Streamer streamer = streamers.streamers().iterator().next();
-        assertEquals(streamer.avatar(), "https://images.chesscomfiles.com/uploads/v1/user/32076054.611f6b88.50x50o.b34120ef650c.jpeg");
-        assertEquals(streamer.twitchUrl(), "https://twitch.tv/GMBenjaminFinegold");
-        assertEquals(streamer.url(), "https://www.chess.com/member/GMBenjaminFinegold");
-        assertEquals(streamer.username(), "GMBenjaminFinegold");
+        assertEquals("https://images.chesscomfiles.com/uploads/v1/user/32076054.611f6b88.50x50o.b34120ef650c.jpeg", streamer.avatar());
+        assertEquals("https://twitch.tv/GMBenjaminFinegold", streamer.twitchUrl());
+        assertEquals("https://www.chess.com/member/GMBenjaminFinegold", streamer.url());
+        assertEquals("GMBenjaminFinegold", streamer.username());
     }
 
 }

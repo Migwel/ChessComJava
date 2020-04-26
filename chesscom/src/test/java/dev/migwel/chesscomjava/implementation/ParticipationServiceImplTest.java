@@ -33,53 +33,53 @@ class ParticipationServiceImplTest {
     @Test
     void testGetClubs() {
         Clubs clubs = participationService.getClubs("erik");
-        assertEquals(clubs.clubs().size(), 27);
+        assertEquals(27, clubs.clubs().size());
         Club club = clubs.clubs().iterator().next();
-        assertEquals(club.url(), "https://www.chess.com/club/open-discussion");
+        assertEquals("https://www.chess.com/club/open-discussion", club.url());
     }
 
     @Test
     void testGetFinishedMatches() {
         MatchesParticipations matchesParticipations = participationService.getMatches("erik");
-        assertEquals(matchesParticipations.finished().size(), 165);
+        assertEquals(165, matchesParticipations.finished().size());
         MatchParticipation matchParticipation = matchesParticipations.finished().iterator().next();
-        assertEquals(matchParticipation.url(), 	"https://www.chess.com/club/matches/642370");
-        assertEquals(matchParticipation.results().playedAsBlack(), "resigned");
+        assertEquals("https://www.chess.com/club/matches/642370", 	matchParticipation.url());
+        assertEquals("resigned", matchParticipation.results().playedAsBlack());
     }
 
     @Test
     void testGetMatchesInProgress() {
         MatchesParticipations matchesParticipations = participationService.getMatches("erik");
-        assertEquals(matchesParticipations.inProgress().size(), 2);
+        assertEquals(2, matchesParticipations.inProgress().size());
         MatchParticipation matchParticipation = matchesParticipations.inProgress().iterator().next();
-        assertEquals(matchParticipation.url(), 	"https://www.chess.com/club/matches/1103618");
-        assertEquals(matchParticipation.results().playedAsWhite(), "win");
+        assertEquals("https://www.chess.com/club/matches/1103618", 	matchParticipation.url());
+        assertEquals("win", matchParticipation.results().playedAsWhite());
     }
 
     @Test
     void testGetFinishedTournaments() {
         TournamentsParticipations tournamentsParticipations = participationService.getTournaments("erik");
-        assertEquals(tournamentsParticipations.finished().size(), 132);
+        assertEquals(132, tournamentsParticipations.finished().size());
         TournamentParticipation tournamentParticipation = tournamentsParticipations.finished().iterator().next();
-        assertEquals(tournamentParticipation.url(), "https://www.chess.com/tournament/100-years-of-chemotherapy---remembrance-tournament");
-        assertEquals(tournamentParticipation.totalPlayers(), 100);
+        assertEquals("https://www.chess.com/tournament/100-years-of-chemotherapy---remembrance-tournament", tournamentParticipation.url());
+        assertEquals(100, tournamentParticipation.totalPlayers());
     }
 
     @Test
     void testGetTournamentsInProgress() {
         TournamentsParticipations tournamentsParticipations = participationService.getTournaments("erik");
-        assertEquals(tournamentsParticipations.inProgress().size(), 7);
+        assertEquals(7, tournamentsParticipations.inProgress().size());
         TournamentParticipation tournamentParticipation = tournamentsParticipations.inProgress().iterator().next();
-        assertEquals(tournamentParticipation.url(), "https://www.chess.com/tournament/34th-chess-com-thematic-tournament-alekhine-1401-1600");
-        assertEquals(tournamentParticipation.draws(), 1);
+        assertEquals("https://www.chess.com/tournament/34th-chess-com-thematic-tournament-alekhine-1401-1600", tournamentParticipation.url());
+        assertEquals(1, tournamentParticipation.draws());
     }
 
     @Test
     void testGetRegisteredTournaments() {
         TournamentsParticipations tournamentsParticipations = participationService.getTournaments("erik");
-        assertEquals(tournamentsParticipations.registered().size(), 6);
+        assertEquals(6, tournamentsParticipations.registered().size());
         TournamentParticipation tournamentParticipation = tournamentsParticipations.registered().iterator().next();
-        assertEquals(tournamentParticipation.url(), "https://www.chess.com/tournament/75-let-velikoi-pobedy");
+        assertEquals("https://www.chess.com/tournament/75-let-velikoi-pobedy", tournamentParticipation.url());
     }
 
 }
