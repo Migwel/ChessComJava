@@ -1,5 +1,6 @@
 package dev.migwel.chesscomjava.implementation;
 
+import dev.migwel.chesscomjava.ChessComFetcher;
 import dev.migwel.chesscomjava.api.participation.Clubs;
 import dev.migwel.chesscomjava.api.participation.MatchesParticipations;
 import dev.migwel.chesscomjava.api.participation.TournamentsParticipations;
@@ -8,7 +9,8 @@ import org.junit.jupiter.api.Test;
 
 class ParticipationServiceImplTest {
 
-    private final ParticipationService participationService = new ParticipationServiceImpl();
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher();
+    private final ParticipationService participationService = new ParticipationServiceImpl(chessComFetcher);
 
     @Test
     void testGetClubs() {

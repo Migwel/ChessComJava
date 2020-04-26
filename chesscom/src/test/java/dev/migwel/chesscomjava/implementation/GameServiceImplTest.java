@@ -1,5 +1,6 @@
 package dev.migwel.chesscomjava.implementation;
 
+import dev.migwel.chesscomjava.ChessComFetcher;
 import dev.migwel.chesscomjava.api.games.PlayerArchives;
 import dev.migwel.chesscomjava.api.games.PlayerGames;
 import dev.migwel.chesscomjava.api.games.PlayerPastGames;
@@ -10,7 +11,8 @@ import java.time.YearMonth;
 
 class GameServiceImplTest {
 
-    private final GameService gameService = new GameServiceImpl();
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher();
+    private final GameService gameService = new GameServiceImpl(chessComFetcher);
 
     @Test
     void testGetCurrentGames() {

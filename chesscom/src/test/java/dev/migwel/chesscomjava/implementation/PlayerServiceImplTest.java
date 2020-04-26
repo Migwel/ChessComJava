@@ -1,5 +1,6 @@
 package dev.migwel.chesscomjava.implementation;
 
+import dev.migwel.chesscomjava.ChessComFetcher;
 import dev.migwel.chesscomjava.api.player.Player;
 import dev.migwel.chesscomjava.api.player.PlayerStats;
 import dev.migwel.chesscomjava.api.player.TitledPlayers;
@@ -11,7 +12,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PlayerServiceImplTest {
 
-    private final PlayerService playerService = new PlayerServiceImpl();
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher();
+    private final PlayerService playerService = new PlayerServiceImpl(chessComFetcher);
 
     @Test
     void testGetProfile() {
