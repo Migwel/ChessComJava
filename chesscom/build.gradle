@@ -4,4 +4,6 @@ dependencies {
 
     compile 'org.apache.httpcomponents:httpclient:4.5.12'
     compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
+
+    testCompile project(':util')
 }

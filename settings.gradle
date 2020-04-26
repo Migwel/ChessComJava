@@ -2,4 +2,5 @@ rootProject.name = 'ChessComJava'
 include 'api'
 include 'chesscom'
 include 'services'
+include 'util'
 
