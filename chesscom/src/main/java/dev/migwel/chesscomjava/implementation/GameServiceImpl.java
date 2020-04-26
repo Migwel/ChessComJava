@@ -8,7 +8,7 @@ import dev.migwel.chesscomjava.services.GameService;
 
 import java.time.YearMonth;
 
-public class GameServiceImpl implements GameService {
+class GameServiceImpl implements GameService {
     @Override
     public PlayerGames getPlayerCurrentGames(String username) {
         return ChessComFetcher.fetch(String.format("https://api.chess.com/pub/player/%s/games", username), PlayerGames.class);

@@ -2,7 +2,6 @@ package dev.migwel.chesscomjava;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
-import dev.migwel.chesscomjava.implementation.PlayerServiceImpl;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;

@@ -6,7 +6,7 @@ import dev.migwel.chesscomjava.api.participation.MatchesParticipations;
 import dev.migwel.chesscomjava.api.participation.TournamentsParticipations;
 import dev.migwel.chesscomjava.services.ParticipationService;
 
-public class ParticipationServiceImpl implements ParticipationService {
+class ParticipationServiceImpl implements ParticipationService {
 
     @Override
     public Clubs getClubs(String username) {

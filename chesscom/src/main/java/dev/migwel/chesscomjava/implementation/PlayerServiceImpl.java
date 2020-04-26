@@ -7,7 +7,7 @@ import dev.migwel.chesscomjava.api.player.PlayerStats;
 import dev.migwel.chesscomjava.api.player.TitledPlayers;
 import dev.migwel.chesscomjava.services.PlayerService;
 
-public class PlayerServiceImpl implements PlayerService {
+class PlayerServiceImpl implements PlayerService {
 
     @Override
     public Player getProfile(String username) {
