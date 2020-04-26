@@ -1,0 +1,15 @@
+{
+  "avatar": "https://images.chesscomfiles.com/uploads/v1/user/41.f4cbdaf7.200x200o.2da5fc98b62f.jpeg",
+  "player_id": 41,
+  "@id": "https://api.chess.com/pub/player/erik",
+  "url": "https://www.chess.com/member/erik",
+  "name": "Erik",
+  "username": "erik",
+  "followers": 2536,
+  "country": "https://api.chess.com/pub/country/US",
+  "location": "Bay Area, CA",
+  "last_online": 1587913941,
+  "joined": 1178556600,
+  "status": "staff",
+  "is_streamer": false
+}

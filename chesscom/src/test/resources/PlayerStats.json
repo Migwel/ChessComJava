@@ -1,0 +1,130 @@
+{
+  "chess_daily": {
+    "last": {
+      "rating": 1670,
+      "date": 1587875157,
+      "rd": 52
+    },
+    "best": {
+      "rating": 2065,
+      "date": 1256228875,
+      "game": "https://www.chess.com/daily/game/26087202"
+    },
+    "record": {
+      "win": 2302,
+      "loss": 1526,
+      "draw": 283,
+      "time_per_move": 15717,
+      "timeout_percent": 0
+    },
+    "tournament": {
+      "points": 11,
+      "withdraw": 1,
+      "count": 1,
+      "highest_finish": 1
+    }
+  },
+  "chess960_daily": {
+    "last": {
+      "rating": 1504,
+      "date": 1587831027,
+      "rd": 80
+    },
+    "best": {
+      "rating": 1779,
+      "date": 1466772304,
+      "game": "https://www.chess.com/daily/game/155362414"
+    },
+    "record": {
+      "win": 246,
+      "loss": 152,
+      "draw": 21,
+      "time_per_move": 15717,
+      "timeout_percent": 0
+    },
+    "tournament": {
+      "points": 11,
+      "withdraw": 1,
+      "count": 1,
+      "highest_finish": 1
+    }
+  },
+  "chess_rapid": {
+    "last": {
+      "rating": 1485,
+      "date": 1554249860,
+      "rd": 197
+    },
+    "best": {
+      "rating": 1613,
+      "date": 1471203395,
+      "game": "https://www.chess.com/live/game/758005361"
+    },
+    "record": {
+      "win": 9,
+      "loss": 6,
+      "draw": 0
+    }
+  },
+  "chess_bullet": {
+    "last": {
+      "rating": 1633,
+      "date": 1587433855,
+      "rd": 61
+    },
+    "best": {
+      "rating": 2071,
+      "date": 1298134178,
+      "game": "https://www.chess.com/live/game/85305696"
+    },
+    "record": {
+      "win": 2000,
+      "loss": 1711,
+      "draw": 93
+    }
+  },
+  "chess_blitz": {
+    "last": {
+      "rating": 1523,
+      "date": 1583788429,
+      "rd": 108
+    },
+    "best": {
+      "rating": 1858,
+      "date": 1525393481,
+      "game": "https://www.chess.com/live/game/2790749027"
+    },
+    "record": {
+      "win": 345,
+      "loss": 267,
+      "draw": 26
+    }
+  },
+  "fide": 1707,
+  "tactics": {
+    "highest": {
+      "rating": 2270,
+      "date": 1332626938
+    },
+    "lowest": {
+      "rating": 1073,
+      "date": 1201209658
+    }
+  },
+  "lessons": {
+    "highest": {
+      "rating": 2028,
+      "date": 1392779850
+    },
+    "lowest": {
+      "rating": 1719,
+      "date": 1454130669
+    }
+  },
+  "puzzle_rush": {
+    "best": {
+      "total_attempts": 43,
+      "score": 40
+    }
+  }
+}
