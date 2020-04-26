@@ -10,8 +10,8 @@ import org.junit.jupiter.api.Test;
 import java.time.YearMonth;
 
 class GameServiceImplTest {
-
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher();
+    private final HttpClient httpClient = new HttpClient();
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
     private final GameService gameService = new GameServiceImpl(chessComFetcher);
 
     @Test

@@ -8,7 +8,8 @@ import dev.migwel.chesscomjava.services.StreamerService;
 
 public final class ServiceFactory {
 
-    private static final ChessComFetcher chessComFetcher = new ChessComFetcher();
+    private static final HttpClient httpClient = new HttpClient();
+    private static final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
     private static final GameService gameService = new GameServiceImpl(chessComFetcher);
     private static final ParticipationService participationService = new ParticipationServiceImpl(chessComFetcher);
     private static final PlayerService playerService = new PlayerServiceImpl(chessComFetcher);

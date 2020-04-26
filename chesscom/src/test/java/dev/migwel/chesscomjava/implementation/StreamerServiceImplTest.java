@@ -5,11 +5,10 @@ import dev.migwel.chesscomjava.api.streamer.Streamers;
 import dev.migwel.chesscomjava.services.StreamerService;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class StreamerServiceImplTest {
 
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher();
+    private final HttpClient httpClient = new HttpClient();
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
     private final StreamerService streamerService = new StreamerServiceImpl(chessComFetcher);
 
     @Test

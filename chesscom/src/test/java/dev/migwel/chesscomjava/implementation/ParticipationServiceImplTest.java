@@ -8,8 +8,8 @@ import dev.migwel.chesscomjava.services.ParticipationService;
 import org.junit.jupiter.api.Test;
 
 class ParticipationServiceImplTest {
-
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher();
+    private final HttpClient httpClient = new HttpClient();
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
     private final ParticipationService participationService = new ParticipationServiceImpl(chessComFetcher);
 
     @Test

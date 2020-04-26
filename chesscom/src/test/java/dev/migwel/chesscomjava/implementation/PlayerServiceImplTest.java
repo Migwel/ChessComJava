@@ -12,7 +12,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PlayerServiceImplTest {
 
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher();
+    private final HttpClient httpClient = new HttpClient();
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
     private final PlayerService playerService = new PlayerServiceImpl(chessComFetcher);
 
     @Test
