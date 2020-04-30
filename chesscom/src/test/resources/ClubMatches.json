@@ -1,0 +1,1454 @@
+{
+  "finished": [
+    {
+      "name": "Warm up match",
+      "@id": "https://api.chess.com/pub/match/914",
+      "opponent": "https://api.chess.com/pub/club/usasc",
+      "start_time": 1229035138,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "world league warm up :-)",
+      "@id": "https://api.chess.com/pub/match/934",
+      "opponent": "https://api.chess.com/pub/club/team-england",
+      "start_time": 1229184580,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "AWARDCHESS VS Team USA.1",
+      "@id": "https://api.chess.com/pub/match/1043",
+      "opponent": "https://api.chess.com/pub/club/awardchess-chess-coach",
+      "start_time": 1229354118,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "666 VS Team USA.1",
+      "@id": "https://api.chess.com/pub/match/1044",
+      "opponent": "https://api.chess.com/pub/club/666",
+      "start_time": 1229394951,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Win or Lose on your own vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/1075",
+      "opponent": "https://api.chess.com/pub/club/win-or-lose-on-your-own",
+      "start_time": 1229556326,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Under 1800",
+      "@id": "https://api.chess.com/pub/match/1084",
+      "opponent": "https://api.chess.com/pub/club/usasc",
+      "start_time": 1229484177,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Chess Unlimited Open Seek #31",
+      "@id": "https://api.chess.com/pub/match/1087",
+      "opponent": "https://api.chess.com/pub/club/chess-unlimited",
+      "start_time": 1229714335,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League warm-up",
+      "@id": "https://api.chess.com/pub/match/1245",
+      "opponent": "https://api.chess.com/pub/club/team-usa-northeast",
+      "start_time": 1230383679,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "For the little...little...ones",
+      "@id": "https://api.chess.com/pub/match/1512",
+      "opponent": "https://api.chess.com/pub/club/chess-mate",
+      "start_time": 1231017240,
+      "time_class": "daily",
+      "result": "draw"
+    },
+    {
+      "name": "Once upon a time in America",
+      "@id": "https://api.chess.com/pub/match/2381",
+      "opponent": "https://api.chess.com/pub/club/under-reconstructions",
+      "start_time": 1232942641,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Philadelphia",
+      "@id": "https://api.chess.com/pub/match/2383",
+      "opponent": "https://api.chess.com/pub/club/under-reconstructions",
+      "start_time": 1232987360,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Chicago",
+      "@id": "https://api.chess.com/pub/match/2384",
+      "opponent": "https://api.chess.com/pub/club/under-reconstructions",
+      "start_time": 1232942643,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "North by Northwest",
+      "@id": "https://api.chess.com/pub/match/2386",
+      "opponent": "https://api.chess.com/pub/club/under-reconstructions",
+      "start_time": 1232987355,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "The bad the good and the ugly",
+      "@id": "https://api.chess.com/pub/match/2388",
+      "opponent": "https://api.chess.com/pub/club/under-reconstructions",
+      "start_time": 1232987364,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League <1200, Exhibition Round: Canada vs. USA Southwest",
+      "@id": "https://api.chess.com/pub/match/2580",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1233455715,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League 1201-1600, Exhibition Round: Canada vs. USA Southwest",
+      "@id": "https://api.chess.com/pub/match/2581",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1233455742,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 1601-2000, Exhibition Round: Canada vs. USA Southwest",
+      "@id": "https://api.chess.com/pub/match/2582",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1233467066,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League Masters, Exhibition Round: Canada vs. USA Southwest",
+      "@id": "https://api.chess.com/pub/match/2583",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1233465621,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League Round 1: Team USA Southwest vs. Team USA Northwest",
+      "@id": "https://api.chess.com/pub/match/4835",
+      "opponent": "https://api.chess.com/pub/club/team-usa-northwest",
+      "start_time": 1237240112,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League Round 2: Indonesia vs USA Southwest",
+      "@id": "https://api.chess.com/pub/match/6811",
+      "opponent": "https://api.chess.com/pub/club/team-indonesia",
+      "start_time": 1240471948,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "A GREAT GAME BETWEEN 2 BIG TEAMS",
+      "@id": "https://api.chess.com/pub/match/7714",
+      "opponent": "https://api.chess.com/pub/club/the-power-of-chess",
+      "start_time": 1241455766,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Poder Latino vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/7951",
+      "opponent": "https://api.chess.com/pub/club/poder-latino",
+      "start_time": 1241708361,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League Round 3: Team Turkey vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/8502",
+      "opponent": "https://api.chess.com/pub/club/team-turkey",
+      "start_time": 1242660516,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League Round 4: Team USA Southwest vs. Team Iran",
+      "@id": "https://api.chess.com/pub/match/10412",
+      "opponent": "https://api.chess.com/pub/club/team-iran",
+      "start_time": 1245077533,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Team USA: Southwest Open Challenge",
+      "@id": "https://api.chess.com/pub/match/11398",
+      "opponent": "https://api.chess.com/pub/club/islam-chess-unity",
+      "start_time": 1245874526,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "??? People of Islam ??? vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/11890",
+      "opponent": "https://api.chess.com/pub/club/islam-chess-unity",
+      "start_time": 1246546611,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "ASIA GROUP vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/12498",
+      "opponent": "https://api.chess.com/pub/club/asia",
+      "start_time": 1247068138,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "WORLD LEAGUE Round 5: Romania vs USA Southwest",
+      "@id": "https://api.chess.com/pub/match/12803",
+      "opponent": "https://api.chess.com/pub/club/team-romania",
+      "start_time": 1247533336,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Dragon Lords vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/13062",
+      "opponent": "https://api.chess.com/pub/club/dragon-lords",
+      "start_time": 1247374223,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League Rd. 6: Team USA: Southwest v Team China",
+      "@id": "https://api.chess.com/pub/match/14814",
+      "opponent": "https://api.chess.com/pub/club/team-china",
+      "start_time": 1250011637,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League, Round 7: USA Southwest v Portugal",
+      "@id": "https://api.chess.com/pub/match/17711",
+      "opponent": "https://api.chess.com/pub/club/team-portugal",
+      "start_time": 1252446757,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League Round 8:  Team USA v Team Ireland",
+      "@id": "https://api.chess.com/pub/match/19301",
+      "opponent": "https://api.chess.com/pub/club/team-ireland",
+      "start_time": 1255076925,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Team USA Southwest vs. Team England <1700",
+      "@id": "https://api.chess.com/pub/match/20014",
+      "opponent": "https://api.chess.com/pub/club/team-england",
+      "start_time": 1256108709,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Chess Team Holland vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/20807",
+      "opponent": "https://api.chess.com/pub/club/chess-team-holland",
+      "start_time": 1256847132,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League Round 10: Brazil vs. USA Southwest",
+      "@id": "https://api.chess.com/pub/match/21735",
+      "opponent": "https://api.chess.com/pub/club/team-brazil",
+      "start_time": 1259287944,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League, Round 11 USA SW vs. Russia",
+      "@id": "https://api.chess.com/pub/match/23352",
+      "opponent": "https://api.chess.com/pub/club/team-russia",
+      "start_time": 1261456939,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2010 R1 U1600: Team USA Southwest vs. Team Greece",
+      "@id": "https://api.chess.com/pub/match/25597",
+      "opponent": "https://api.chess.com/pub/club/team-greece",
+      "start_time": 1264409483,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League 2010 R1 Open: Team USA Southwest vs. Team Greece",
+      "@id": "https://api.chess.com/pub/match/25921",
+      "opponent": "https://api.chess.com/pub/club/team-greece",
+      "start_time": 1264605005,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2010 R2: Team Italia vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/28599",
+      "opponent": "https://api.chess.com/pub/club/team-italia",
+      "start_time": 1267336425,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League R3 : Team Bosnia-Herzegovina vs Team USA SouthWest",
+      "@id": "https://api.chess.com/pub/match/31909",
+      "opponent": "https://api.chess.com/pub/club/bosnia-and-herzegovina",
+      "start_time": 1271403940,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2010 R4: Team USA: Northeast vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/34884",
+      "opponent": "https://api.chess.com/pub/club/team-usa-northeast",
+      "start_time": 1275219699,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "WL U1600 2010 R1: Team Canada vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/37441",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1277878980,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2010 Round 5 - USA Southwest vs Australia",
+      "@id": "https://api.chess.com/pub/match/37994",
+      "opponent": "https://api.chess.com/pub/club/team-australia",
+      "start_time": 1278788950,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "WL U1600 Round 2",
+      "@id": "https://api.chess.com/pub/match/40636",
+      "opponent": "https://api.chess.com/pub/club/team-uzbekistan",
+      "start_time": 1280948838,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Egyptian Chess Master  V  Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/41329",
+      "opponent": "https://api.chess.com/pub/club/egyptian-chess-masters",
+      "start_time": 1281471917,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Egyptian Chess Master  V  Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/41330",
+      "opponent": "https://api.chess.com/pub/club/egyptian-chess-masters",
+      "start_time": 1281747896,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League 2010 R6, Germany vs. USA Southwest",
+      "@id": "https://api.chess.com/pub/match/42600",
+      "opponent": "https://api.chess.com/pub/club/team-germany",
+      "start_time": 1283277787,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "WL U1600 2010 R3: USA Southwest vs. Turkey.",
+      "@id": "https://api.chess.com/pub/match/43300",
+      "opponent": "https://api.chess.com/pub/club/team-turkey",
+      "start_time": 1283283075,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "WL U1600 2010 R4: Indian Marauders vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/45307",
+      "opponent": "https://api.chess.com/pub/club/indian-marauders-and-friends",
+      "start_time": 1285128441,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League 2010 R7: Team USA SW vs.Team Philippines",
+      "@id": "https://api.chess.com/pub/match/46860",
+      "opponent": "https://api.chess.com/pub/club/team-philippines-united",
+      "start_time": 1287108462,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "friends",
+      "@id": "https://api.chess.com/pub/match/47071",
+      "opponent": "https://api.chess.com/pub/club/the-power-of-chess",
+      "start_time": 1286837621,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "WL U1600 2010 R5: Team Slovakia vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/48066",
+      "opponent": "https://api.chess.com/pub/club/team-slovakia",
+      "start_time": 1287695380,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "WL U1600 2010 R6:  Team USA Southeast vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/50636",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1289623922,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League 2010 R8: Team Canada vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/51470",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1291217555,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "WL U1600 2010 R7: Team Russia vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/52635",
+      "opponent": "https://api.chess.com/pub/club/team-russia",
+      "start_time": 1292044544,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2011 R1: Team USA Southwest vs. Team Turkey",
+      "@id": "https://api.chess.com/pub/match/59176",
+      "opponent": "https://api.chess.com/pub/club/team-turkey",
+      "start_time": 1297609775,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2011 R2: Team USA SW vs.Team Greece",
+      "@id": "https://api.chess.com/pub/match/65000",
+      "opponent": "https://api.chess.com/pub/club/team-greece",
+      "start_time": 1302654679,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Indonesian Chess Masters vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/65710",
+      "opponent": "https://api.chess.com/pub/club/-master-catur-indonesia",
+      "start_time": 1302297416,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Indonesian Chess Masters vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/69447",
+      "opponent": "https://api.chess.com/pub/club/-master-catur-indonesia",
+      "start_time": 1305678437,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League 2011 R3:  Team USA SW vs. Team Iran",
+      "@id": "https://api.chess.com/pub/match/69586",
+      "opponent": "https://api.chess.com/pub/club/team-iran",
+      "start_time": 1306369157,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Cities of Light",
+      "@id": "https://api.chess.com/pub/match/72140",
+      "opponent": "https://api.chess.com/pub/club/light-force",
+      "start_time": 1308351757,
+      "time_class": "daily",
+      "result": "draw"
+    },
+    {
+      "name": "World League 2011 R4: Team USA Southwest vs. Team Slovenija",
+      "@id": "https://api.chess.com/pub/match/73658",
+      "opponent": "https://api.chess.com/pub/club/team-slovenija",
+      "start_time": 1310337378,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Team USA: Southwest vs Indonesian Chess Masters",
+      "@id": "https://api.chess.com/pub/match/78356",
+      "opponent": "https://api.chess.com/pub/club/-master-catur-indonesia",
+      "start_time": 1313111194,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2011 R5: Team India vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/78598",
+      "opponent": "https://api.chess.com/pub/club/team-india",
+      "start_time": 1313793078,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Team India vs Team USA: Southwest < 1700",
+      "@id": "https://api.chess.com/pub/match/83118",
+      "opponent": "https://api.chess.com/pub/club/team-india",
+      "start_time": 1316498684,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League 2011 R6: Team Germany vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/85914",
+      "opponent": "https://api.chess.com/pub/club/team-germany",
+      "start_time": 1318797063,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2011 R7: Team Romania vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/90141",
+      "opponent": "https://api.chess.com/pub/club/team-romania",
+      "start_time": 1321412650,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2011 R8: Team USA: Southwest vs. Team Canada",
+      "@id": "https://api.chess.com/pub/match/96021",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1325019600,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2012R1 Team England vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/108599",
+      "opponent": "https://api.chess.com/pub/club/team-england",
+      "start_time": 1331452402,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2012 R2: Bosnia and Herzegovina vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/121591",
+      "opponent": "https://api.chess.com/pub/club/bosnia-and-herzegovina",
+      "start_time": 1335557508,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "TI vs Team USA : Southwest (<1750 3d/mv)",
+      "@id": "https://api.chess.com/pub/match/123792",
+      "opponent": "https://api.chess.com/pub/club/team-india",
+      "start_time": 1336710698,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Practice <1500 Match",
+      "@id": "https://api.chess.com/pub/match/124860",
+      "opponent": "https://api.chess.com/pub/club/-master-catur-indonesia",
+      "start_time": 1336091021,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "<1450 Practice Match",
+      "@id": "https://api.chess.com/pub/match/125492",
+      "opponent": "https://api.chess.com/pub/club/pinoy-chess-philippines",
+      "start_time": 1336357909,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "<1425 Practice Match",
+      "@id": "https://api.chess.com/pub/match/126928",
+      "opponent": "https://api.chess.com/pub/club/asia",
+      "start_time": 1336869546,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2012 R3: Team Romania vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/131154",
+      "opponent": "https://api.chess.com/pub/club/team-romania",
+      "start_time": 1338018909,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League R4:  Team USA Southwest vs. Team Croatia",
+      "@id": "https://api.chess.com/pub/match/140732",
+      "opponent": "https://api.chess.com/pub/club/team-croatia",
+      "start_time": 1340795882,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2012 R5: Team USA Southwest vs. Team Sweden",
+      "@id": "https://api.chess.com/pub/match/155844",
+      "opponent": "https://api.chess.com/pub/club/team-sweden",
+      "start_time": 1344822854,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2012 R6: Team USA: Southwest vs. Team Slovakia",
+      "@id": "https://api.chess.com/pub/match/169044",
+      "opponent": "https://api.chess.com/pub/club/team-slovakia",
+      "start_time": 1347651615,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Practice Match <1500 (September, 2012)",
+      "@id": "https://api.chess.com/pub/match/171576",
+      "opponent": "https://api.chess.com/pub/club/asia",
+      "start_time": 1347912871,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "World League 2012 R7: Team USA: Southwest vs. Team India",
+      "@id": "https://api.chess.com/pub/match/184232",
+      "opponent": "https://api.chess.com/pub/club/team-india",
+      "start_time": 1351089209,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Practice Match <1300 (October, 2012)",
+      "@id": "https://api.chess.com/pub/match/187764",
+      "opponent": "https://api.chess.com/pub/club/asia",
+      "start_time": 1351478263,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Practice Match <1250 (October 2012)",
+      "@id": "https://api.chess.com/pub/match/189548",
+      "opponent": "https://api.chess.com/pub/club/chess-unlimited",
+      "start_time": 1351725789,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League 2012 R8: Team USA: Southwest vs. Team Greece",
+      "@id": "https://api.chess.com/pub/match/200322",
+      "opponent": "https://api.chess.com/pub/club/team-greece",
+      "start_time": 1354745138,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "U1600 Pan-American League 2013 R1: USA Southwest vs Venezuela",
+      "@id": "https://api.chess.com/pub/match/213528",
+      "opponent": "https://api.chess.com/pub/club/team-venezuela",
+      "start_time": 1358636701,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Match Name: Pan-American League 2013 R1:  Team Venezuela vs Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/213774",
+      "opponent": "https://api.chess.com/pub/club/team-venezuela",
+      "start_time": 1358210738,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "U1600 Pan-American League 2013 R2: USA: Southwest vs. USA: Southeast",
+      "@id": "https://api.chess.com/pub/match/230164",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1361577690,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Pan American League 2013 R2: Team USA vs. Team USA - Southwest",
+      "@id": "https://api.chess.com/pub/match/230514",
+      "opponent": "https://api.chess.com/pub/club/team-usa",
+      "start_time": 1361167029,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "WL2013 R1: Team USA: Southwest vs. Team Spain",
+      "@id": "https://api.chess.com/pub/match/240324",
+      "opponent": "https://api.chess.com/pub/club/team-spain",
+      "start_time": 1363560411,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "WL2013 R2: Team Slovakia vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/247328",
+      "opponent": "https://api.chess.com/pub/club/team-slovakia",
+      "start_time": 1364859155,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Pan-American League 2013 R3: Team USA Southwest vs Team Canada",
+      "@id": "https://api.chess.com/pub/match/248694",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1365293025,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "U1600 Pan-American League 2013 R3: Team USA: Southwest vs. Team USA",
+      "@id": "https://api.chess.com/pub/match/249214",
+      "opponent": "https://api.chess.com/pub/club/team-usa",
+      "start_time": 1365306918,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "WL2013 Round 3: Team USA: Southwest vs. Team Greece",
+      "@id": "https://api.chess.com/pub/match/254392",
+      "opponent": "https://api.chess.com/pub/club/team-greece",
+      "start_time": 1366189908,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "WL2013 R4: Team USA: Southwest vs. Team Serbia",
+      "@id": "https://api.chess.com/pub/match/262246",
+      "opponent": "https://api.chess.com/pub/club/srbija-tim",
+      "start_time": 1368646620,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "U1600 Pan-American League 2013 R4: Team USA: Southwest vs. Team Mexico",
+      "@id": "https://api.chess.com/pub/match/264768",
+      "opponent": "https://api.chess.com/pub/club/team-mexico-1",
+      "start_time": 1369058505,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Pan-American League 2013 R4: Team USA: Southwest vs. Team Argentina",
+      "@id": "https://api.chess.com/pub/match/264772",
+      "opponent": "https://api.chess.com/pub/club/team-argentina",
+      "start_time": 1368659987,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "World League 2013 R5: Team Indonesia vs Team USA-Southwest",
+      "@id": "https://api.chess.com/pub/match/272552",
+      "opponent": "https://api.chess.com/pub/club/team-indonesia",
+      "start_time": 1371394057,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Pan-American League 2013 R5: Team USA: Southwest vs. Team USA: Southeast",
+      "@id": "https://api.chess.com/pub/match/279130",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1372694618,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "U1600 Pan-American League 2013 R5: Team USA: Southwest vs. Team Canada",
+      "@id": "https://api.chess.com/pub/match/279148",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1372798916,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "WL2013 R6: Team USA: Southwest vs. Team Turkey",
+      "@id": "https://api.chess.com/pub/match/284546",
+      "opponent": "https://api.chess.com/pub/club/team-turkey",
+      "start_time": 1374021103,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Pan-American League 2013 R6: Team USA: Southwest vs. Team Brazil",
+      "@id": "https://api.chess.com/pub/match/292478",
+      "opponent": "https://api.chess.com/pub/club/team-brazil",
+      "start_time": 1376432574,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "U1600 Pan-American League 2013 R6: Team USA: Southwest vs. Team Brazil",
+      "@id": "https://api.chess.com/pub/match/292482",
+      "opponent": "https://api.chess.com/pub/club/team-brazil",
+      "start_time": 1376432697,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "WL2013 R7: Team USA: Southwest vs. Team Brazil",
+      "@id": "https://api.chess.com/pub/match/295566",
+      "opponent": "https://api.chess.com/pub/club/team-brazil",
+      "start_time": 1376603965,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "WL2013 R8: Team USA: Southwest vs. Team Australia",
+      "@id": "https://api.chess.com/pub/match/308772",
+      "opponent": "https://api.chess.com/pub/club/team-australia",
+      "start_time": 1379284393,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Pan-American League 2013 R7: Team USA: Southwest vs. Team Columbia",
+      "@id": "https://api.chess.com/pub/match/311840",
+      "opponent": "https://api.chess.com/pub/club/team-colombia",
+      "start_time": 1379833232,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "U1600 Pan-American League 2013 R7: Team USA: Southwest vs. Team Costa Rica",
+      "@id": "https://api.chess.com/pub/match/316828",
+      "opponent": "https://api.chess.com/pub/club/team-costa-rica",
+      "start_time": 1380512003,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "WL2013 R9: Team USA: Southwest vs. Team Sweden",
+      "@id": "https://api.chess.com/pub/match/318790",
+      "opponent": "https://api.chess.com/pub/club/team-sweden",
+      "start_time": 1382356235,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "???????????????? / ?????????????????? / ???????????????? / ???????????????? vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/348120",
+      "opponent": "https://api.chess.com/pub/club/content21",
+      "start_time": 1387526449,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Team USA: Southwest Open Challenge (u1500)",
+      "@id": "https://api.chess.com/pub/match/350222",
+      "opponent": "https://api.chess.com/pub/club/the-philosophers",
+      "start_time": 1387911642,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Team USA: Southwest Open Challenge 1500+",
+      "@id": "https://api.chess.com/pub/match/350224",
+      "opponent": "https://api.chess.com/pub/club/the-philosophers",
+      "start_time": 1387745601,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "January 2014 Match - Taz",
+      "@id": "https://api.chess.com/pub/match/354628",
+      "opponent": "https://api.chess.com/pub/club/philippines-finest-chess-club",
+      "start_time": 1389772924,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Nations Cup 2014: Round 1",
+      "@id": "https://api.chess.com/pub/match/354938",
+      "opponent": "https://api.chess.com/pub/club/team-greece",
+      "start_time": 1390248118,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Baker Street Irregulars vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/356634",
+      "opponent": "https://api.chess.com/pub/club/baker-street-irregulars",
+      "start_time": 1389802751,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2014 Pan-American League: Team USA: Southwest vs. Team Colombia",
+      "@id": "https://api.chess.com/pub/match/362344",
+      "opponent": "https://api.chess.com/pub/club/team-colombia",
+      "start_time": 1391284880,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Nations Cup 2014: Round 2",
+      "@id": "https://api.chess.com/pub/match/363870",
+      "opponent": "https://api.chess.com/pub/club/philippines-finest-chess-club",
+      "start_time": 1392019337,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Nations Cup Round 3",
+      "@id": "https://api.chess.com/pub/match/372720",
+      "opponent": "https://api.chess.com/pub/club/team-mexico-1",
+      "start_time": 1394265713,
+      "time_class": "daily",
+      "result": "draw"
+    },
+    {
+      "name": "2014 Pan-American League R2: Team USA Southeast vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/372900",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1393704147,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "960: Wolves head for a break down South",
+      "@id": "https://api.chess.com/pub/match/375262",
+      "opponent": "https://api.chess.com/pub/club/the-wolfpack",
+      "start_time": 1393719775,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Practice (CC)",
+      "@id": "https://api.chess.com/pub/match/383456",
+      "opponent": "https://api.chess.com/pub/club/team-international",
+      "start_time": 1395334911,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "South Pack (1400-1600)",
+      "@id": "https://api.chess.com/pub/match/383478",
+      "opponent": "https://api.chess.com/pub/club/the-wolfpack",
+      "start_time": 1395321866,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Nations Cup Round 4: Team USA: Southwest vs Team Australia",
+      "@id": "https://api.chess.com/pub/match/385934",
+      "opponent": "https://api.chess.com/pub/club/team-australia",
+      "start_time": 1396620066,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2014 Pan American League Round 3 Team USA North-Central Vs Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/387730",
+      "opponent": "https://api.chess.com/pub/club/team-usa-north-central",
+      "start_time": 1396393881,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Nations Cup 2014 R5: Team Ukraine vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/399848",
+      "opponent": "https://api.chess.com/pub/club/team-ukraine",
+      "start_time": 1399046487,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2014 Pan-American League Round 4:Team USA: Southwest vs. Team Mexico",
+      "@id": "https://api.chess.com/pub/match/402658",
+      "opponent": "https://api.chess.com/pub/club/team-mexico-1",
+      "start_time": 1399958596,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "New Jersey Chess Team vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/406666",
+      "opponent": "https://api.chess.com/pub/club/new-jersey-chess-team",
+      "start_time": 1401009397,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Nations Cup 2014_Round 6",
+      "@id": "https://api.chess.com/pub/match/407738",
+      "opponent": "https://api.chess.com/pub/club/pecatur-indonesia",
+      "start_time": 1401724902,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "R5 2014 Pan-American League: Team USA: Southwest vs. Team Chile",
+      "@id": "https://api.chess.com/pub/match/408944",
+      "opponent": "https://api.chess.com/pub/club/team-chile",
+      "start_time": 1401638441,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Nation Cup 2014 Round # 7",
+      "@id": "https://api.chess.com/pub/match/417248",
+      "opponent": "https://api.chess.com/pub/club/team-pakistan-pride-of-nation",
+      "start_time": 1404716614,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "2014 Pan-American League: Team Brazil vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/421886",
+      "opponent": "https://api.chess.com/pub/club/team-brazil",
+      "start_time": 1404284489,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Nations cup 2014 - round 8",
+      "@id": "https://api.chess.com/pub/match/424748",
+      "opponent": "https://api.chess.com/pub/club/the-netherlands",
+      "start_time": 1406736150,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2014 Pan-American League: Team USA: Southwest vs. Team Canada",
+      "@id": "https://api.chess.com/pub/match/428554",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1406908947,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2014 Pan Cup U-1800 R.1: Bolivia x Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/444988",
+      "opponent": "https://api.chess.com/pub/club/bolivia",
+      "start_time": 1410980498,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Nations Cup 2014 - round 9",
+      "@id": "https://api.chess.com/pub/match/451592",
+      "opponent": "https://api.chess.com/pub/club/team-hungary---magyar-sakkegylet",
+      "start_time": 1413399739,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Nations cup 2014-round 10",
+      "@id": "https://api.chess.com/pub/match/460678",
+      "opponent": "https://api.chess.com/pub/club/iranian-1",
+      "start_time": 1416081794,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "BHARAT vs USA : Southwest- Nations Cup 2014- Round 11",
+      "@id": "https://api.chess.com/pub/match/477334",
+      "opponent": "https://api.chess.com/pub/club/-bharat",
+      "start_time": 1419840094,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2015 Pan-American League:Team USA Southwest vs.Team Colombia",
+      "@id": "https://api.chess.com/pub/match/489666",
+      "opponent": "https://api.chess.com/pub/club/team-colombia",
+      "start_time": 1422648106,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2015 Pan-American League R2:Team USA: Southwest - Team M\u00e9xico",
+      "@id": "https://api.chess.com/pub/match/500076",
+      "opponent": "https://api.chess.com/pub/club/team-mexico-1",
+      "start_time": 1425154946,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "TM C.L. 2015 Div. B R1:Team USA:SW vs  CALABARZON CHESS TEAM",
+      "@id": "https://api.chess.com/pub/match/503268",
+      "opponent": "https://api.chess.com/pub/club/calabarzon-chess-team",
+      "start_time": 1427223695,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "TM C.L. 2015 Div. B R2:Team USA SW vs MY FRIEND",
+      "@id": "https://api.chess.com/pub/match/503486",
+      "opponent": "https://api.chess.com/pub/club/my-friends-international-my-friends-moji-prijatelji",
+      "start_time": 1427223692,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2015 Pan-American League R3:Team Canada vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/510138",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1427742087,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2015 Pan-American League R4:Team USA: SW vs Team USA: SE",
+      "@id": "https://api.chess.com/pub/match/520052",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1430420761,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Match: TM C.L. 2015 Round 3",
+      "@id": "https://api.chess.com/pub/match/524808",
+      "opponent": "https://api.chess.com/pub/club/1100-kings",
+      "start_time": 1432105315,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2015 Pan-American League R5:Team Brazil vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/533106",
+      "opponent": "https://api.chess.com/pub/club/team-brazil",
+      "start_time": 1433358087,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2015 Pan-American League R6:Team USA: Southwest vs Equipo/Team Chile",
+      "@id": "https://api.chess.com/pub/match/543270",
+      "opponent": "https://api.chess.com/pub/club/team-chile",
+      "start_time": 1435777362,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "TM C.L. 2015 Div. B R4:TUSA-SW vs TUK",
+      "@id": "https://api.chess.com/pub/match/546726",
+      "opponent": "https://api.chess.com/pub/club/team-united-kingdom-1",
+      "start_time": 1437375729,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2015 Pan-American League R7: Team Argentina vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/553596",
+      "opponent": "https://api.chess.com/pub/club/team-argentina",
+      "start_time": 1438412448,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Realm in Southwest Chess Match",
+      "@id": "https://api.chess.com/pub/match/558990",
+      "opponent": "https://api.chess.com/pub/club/knights-of-the-realm",
+      "start_time": 1439467897,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2015 Pan-American League R8: Team USA Northwest vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/565658",
+      "opponent": "https://api.chess.com/pub/club/team-usa-northwest",
+      "start_time": 1441134095,
+      "time_class": "daily",
+      "result": "draw"
+    },
+    {
+      "name": "2015 Pan-American League R9: Team Peru vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/578590",
+      "opponent": "https://api.chess.com/pub/club/team-peru",
+      "start_time": 1443726025,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "WOLF brand chili - Chili Cheese Dogs! (1700-1899)",
+      "@id": "https://api.chess.com/pub/match/581036",
+      "opponent": "https://api.chess.com/pub/club/run-with-the-wolf",
+      "start_time": 1444814844,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "TM C.L. 2015 Div. B R6",
+      "@id": "https://api.chess.com/pub/match/594038",
+      "opponent": "https://api.chess.com/pub/club/fair-tournament-players",
+      "start_time": 1448006519,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Northwest vs Southwest",
+      "@id": "https://api.chess.com/pub/match/609930",
+      "opponent": "https://api.chess.com/pub/club/team-usa-northwest",
+      "start_time": 1451073613,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "Match Name: TMCL 2016 Sub-Div. C4 R1",
+      "@id": "https://api.chess.com/pub/match/614706",
+      "opponent": "https://api.chess.com/pub/club/obsessive-chess-disorder",
+      "start_time": 1452602895,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016A US Regional League R1: Team USA Southeast vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/617568",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1452845128,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "2016 Pan-American League R1:Team Colombia vs Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/624198",
+      "opponent": "https://api.chess.com/pub/club/team-colombia",
+      "start_time": 1454788928,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016A US Regional League R2:Team USA: Southwest vs Team USA: North-Central",
+      "@id": "https://api.chess.com/pub/match/627310",
+      "opponent": "https://api.chess.com/pub/club/team-usa-north-central",
+      "start_time": 1454961641,
+      "time_class": "daily",
+      "result": "draw"
+    },
+    {
+      "name": "TMCL 2016 Sub-Div. C4 R2 The United States Chess Club vs. Team USA:Southwest",
+      "@id": "https://api.chess.com/pub/match/628420",
+      "opponent": "https://api.chess.com/pub/club/the-united-states-chess-club",
+      "start_time": 1455523303,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "2016A US Regional League R3: Team USA: Southwest vs Team USA: Northwest",
+      "@id": "https://api.chess.com/pub/match/638182",
+      "opponent": "https://api.chess.com/pub/club/team-usa-northwest",
+      "start_time": 1457467238,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "TMCL 2016 Sub-Div.C4/R3:TEAM USA:SW vs ARAB UNION",
+      "@id": "https://api.chess.com/pub/match/640558",
+      "opponent": "https://api.chess.com/pub/club/arab-union",
+      "start_time": 1458025334,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016 Pan-American League R3: Team USA Southeast vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/645016",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1459882924,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016A US Regional League R4: Team USA: Southeast vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/651874",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1460660456,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Pan-American League 2016 R4: Team Venezuela vs. Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/657492",
+      "opponent": "https://api.chess.com/pub/club/team-venezuela",
+      "start_time": 1462561241,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "2016A US Regional League R5: Team USA: North-Central vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/663334",
+      "opponent": "https://api.chess.com/pub/club/team-usa-north-central",
+      "start_time": 1463338877,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "2016A US Regional League R6: Team USA: Northwest vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/669022",
+      "opponent": "https://api.chess.com/pub/club/team-usa-northwest",
+      "start_time": 1464980465,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016 Pan-American League R5:Team USA Southwest vs Equipo/Team Chile",
+      "@id": "https://api.chess.com/pub/match/671328",
+      "opponent": "https://api.chess.com/pub/club/team-chile",
+      "start_time": 1465239655,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016B US Regional League R1 (R7):  Team USA Southeast vs Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/678028",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1466881276,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016 Pan-American League R6: Team M\u00e9xico vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/680580",
+      "opponent": "https://api.chess.com/pub/club/team-mexico-1",
+      "start_time": 1467735050,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016 Pan-American League R7:Team USA Southwest vs Team Brazil",
+      "@id": "https://api.chess.com/pub/match/690896",
+      "opponent": "https://api.chess.com/pub/club/team-brazil",
+      "start_time": 1470423674,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016B US Regional League R2 (R8):Team USA: Southwest vs Team USA: North-Central",
+      "@id": "https://api.chess.com/pub/match/696436",
+      "opponent": "https://api.chess.com/pub/club/team-usa-north-central",
+      "start_time": 1471244616,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "2016B US Regional League R3 (R9): Team USA: Northwest vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/701356",
+      "opponent": "https://api.chess.com/pub/club/team-usa-northwest",
+      "start_time": 1472324454,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016 Pan-American League R8: Team Canada vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/702160",
+      "opponent": "https://api.chess.com/pub/club/team-canada",
+      "start_time": 1473102093,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Challenge at 200+ (20160909)",
+      "@id": "https://api.chess.com/pub/match/708970",
+      "opponent": "https://api.chess.com/pub/club/philippine-rizalian-chess-club",
+      "start_time": 1475312002,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016B US Regional League R4 (R10): Team USA: Southeast vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/712142",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1474830022,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016 Pan-American League R9:Team USA Southwest vs Team Argentina",
+      "@id": "https://api.chess.com/pub/match/717572",
+      "opponent": "https://api.chess.com/pub/club/team-argentina",
+      "start_time": 1476558109,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016B US Regional League R5 (R11):Team USA: North-Central vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/724134",
+      "opponent": "https://api.chess.com/pub/club/team-usa-north-central",
+      "start_time": 1477767672,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "USA Southwest - Budapest, a friendly match",
+      "@id": "https://api.chess.com/pub/match/728988",
+      "opponent": "https://api.chess.com/pub/club/team-of-budapest",
+      "start_time": 1479320300,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2016B US Regional League R6 (R12): Team USA: Northwest vs Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/735566",
+      "opponent": "https://api.chess.com/pub/club/team-usa-northwest",
+      "start_time": 1480708886,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2017 Pan-American League R1: Team USA: North-Central vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/746312",
+      "opponent": "https://api.chess.com/pub/club/team-usa-north-central",
+      "start_time": 1483819290,
+      "time_class": "daily",
+      "result": "win"
+    },
+    {
+      "name": "2017 Pan-American League R2: Team Saint Lucia vs. Team USA: Southwest",
+      "@id": "https://api.chess.com/pub/match/754978",
+      "opponent": "https://api.chess.com/pub/club/team-saint-lucia",
+      "start_time": 1486497674,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2017 US Regional League R1: Team USA Southeast vs Team USA Southwest",
+      "@id": "https://api.chess.com/pub/match/764095",
+      "opponent": "https://api.chess.com/pub/club/team-usa-southeast",
+      "start_time": 1488312049,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "2017 Pan-American League R5: Nicaragua vs. USA Southwest",
+      "@id": "https://api.chess.com/pub/match/783958",
+      "opponent": "https://api.chess.com/pub/club/nicaragua",
+      "start_time": 1494183709,
+      "time_class": "daily",
+      "result": "lose"
+    },
+    {
+      "name": "Pan-American League R6: Argentina B vs. USA: Sout West",
+      "@id": "https://api.chess.com/pub/match/796340",
+      "opponent": "https://api.chess.com/pub/club/team-argentina-b",
+      "start_time": 1496862065,
+      "time_class": "daily",
+      "result": "lose"
+    }
+  ],
+  "in_progress": [],
+  "registered": []
+}

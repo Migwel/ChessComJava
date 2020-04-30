@@ -1,0 +1,21 @@
+{
+  "@id": "https://api.chess.com/pub/club/chess-com-developer-community",
+  "name": "Chess.com Developer Community",
+  "club_id": 57796,
+  "country": "https://api.chess.com/pub/country/XX",
+  "average_daily_rating": 1195,
+  "members_count": 2200,
+  "created": 1500301978,
+  "last_activity": 1582396062,
+  "admin": [
+    "https://api.chess.com/pub/player/bcurtis",
+    "https://api.chess.com/pub/player/erik",
+    "https://api.chess.com/pub/player/andreamorandini",
+    "https://api.chess.com/pub/player/jdcannon"
+  ],
+  "visibility": "public",
+  "join_request": "https://www.chess.com/club/join/57796",
+  "icon": "https://images.chesscomfiles.com/uploads/v1/group/57796.67ee0038.50x50o.585842f67281.png",
+  "description": "<p>Chess.com's official club for APIs, data, and code for developers.\u00a0Get involved!<br /><br /></p>\n<p><a href=\"https://www.chess.com/news/view/published-data-api\"><a href=\"https://www.chess.com/news/view/published-data-api\">https://www.chess.com/news/view/published-data-api</a></a><br /><a style=\"color:#005e94;text-decoration:none;font-family:'-apple-system', 'system-ui', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14px;font-style:normal;font-weight:400;letter-spacing:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;background-color:#ffffff;\" href=\"https://www.npmjs.com/package/chess-web-api\" target=\"_blank\" rel=\"noreferrer noopener\"><a href=\"https://www.npmjs.com/package/chess-web-api\" target=\"_blank\">https://www.npmjs.com/package/chess-web-api</a></a><br /><a href=\"https://github.com/ChessCom/ios-chessclock\" target=\"_blank\" rel=\"noreferrer noopener\"><a href=\"https://github.com/ChessCom/ios-chessclock\" target=\"_blank\">https://github.com/ChessCom/ios-chessclock</a></a><br /><a href=\"https://github.com/ChessCom/android-chessclock\" target=\"_blank\" rel=\"noreferrer noopener\"><a href=\"https://github.com/ChessCom/android-chessclock\" target=\"_blank\">https://github.com/ChessCom/android-chessclock</a></a></p>\n<p><br />Our <a href=\"https://www.chess.com/news/view/chess-com-bug-bounty-policy\">Bug Bounty Policy</a> is available <a href=\"https://www.chess.com/news/view/chess-com-bug-bounty-policy\">here</a>.\u00a0</p>",
+  "url": "https://www.chess.com/club/chess-com-developer-community"
+}

@@ -1,10 +1,7 @@
 package dev.migwel.chesscomjava.implementation;
 
 import dev.migwel.chesscomjava.ChessComFetcher;
-import dev.migwel.chesscomjava.services.GameService;
-import dev.migwel.chesscomjava.services.ParticipationService;
-import dev.migwel.chesscomjava.services.PlayerService;
-import dev.migwel.chesscomjava.services.StreamerService;
+import dev.migwel.chesscomjava.services.*;
 
 public final class ServiceFactory {
 
@@ -14,6 +11,7 @@ public final class ServiceFactory {
     private static final ParticipationService participationService = new ParticipationServiceImpl(chessComFetcher);
     private static final PlayerService playerService = new PlayerServiceImpl(chessComFetcher);
     private static final StreamerService streamerService = new StreamerServiceImpl(chessComFetcher);
+    private static final ClubService clubService = new ClubServiceImpl(chessComFetcher);
 
     public static GameService getGameService() {
         return gameService;
@@ -29,5 +27,9 @@ public final class ServiceFactory {
 
     public static StreamerService getStreamerService() {
         return streamerService;
+    }
+
+    public static ClubService getClubService() {
+        return clubService;
     }
 }
