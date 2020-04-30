@@ -1,5 +1,6 @@
 allprojects {
     apply plugin: 'java'
+    apply plugin: "maven"
 
     group 'dev.migwel.chesscomjava'
     version '1.0-SNAPSHOT'
@@ -15,9 +16,9 @@ allprojects {
     }
 
     dependencies {
-        compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
-        compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
-        testCompile 'org.mockito:mockito-core:2.+'
+        implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+        implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+        testImplementation 'org.mockito:mockito-core:2.+'
         testImplementation('org.junit.jupiter:junit-jupiter:5.4.0')
     }
 
