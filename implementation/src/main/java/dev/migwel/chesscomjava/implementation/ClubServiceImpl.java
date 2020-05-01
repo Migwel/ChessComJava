@@ -10,10 +10,6 @@ public class ClubServiceImpl implements ClubService {
 
     private final ChessComFetcher fetcher;
 
-    public ClubServiceImpl() {
-        fetcher = new ChessComFetcher(new HttpClient());
-    }
-
     public ClubServiceImpl(ChessComFetcher fetcher) {
         this.fetcher = fetcher;
     }

@@ -8,10 +8,6 @@ public class StreamerServiceImpl implements StreamerService {
 
     private final ChessComFetcher fetcher;
 
-    public StreamerServiceImpl() {
-        fetcher = new ChessComFetcher(new HttpClient());
-    }
-
     public StreamerServiceImpl(ChessComFetcher fetcher) {
         this.fetcher = fetcher;
     }

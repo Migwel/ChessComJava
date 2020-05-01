@@ -11,10 +11,6 @@ public class PlayerServiceImpl implements PlayerService {
 
     private final ChessComFetcher fetcher;
 
-    public PlayerServiceImpl() {
-        fetcher = new ChessComFetcher(new HttpClient());
-    }
-
     public PlayerServiceImpl(ChessComFetcher fetcher) {
         this.fetcher = fetcher;
     }

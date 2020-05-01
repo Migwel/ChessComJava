@@ -10,10 +10,6 @@ public class ParticipationServiceImpl implements ParticipationService {
 
     private final ChessComFetcher fetcher;
 
-    public ParticipationServiceImpl() {
-        fetcher = new ChessComFetcher(new HttpClient());
-    }
-
     public ParticipationServiceImpl(ChessComFetcher fetcher) {
         this.fetcher = fetcher;
     }

@@ -12,10 +12,6 @@ public class GameServiceImpl implements GameService {
 
     private final ChessComFetcher fetcher;
 
-    public GameServiceImpl() {
-        fetcher = new ChessComFetcher(new HttpClient());
-    }
-
     public GameServiceImpl(ChessComFetcher fetcher) {
         this.fetcher = fetcher;
     }
