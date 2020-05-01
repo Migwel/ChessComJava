@@ -7,4 +7,5 @@ public interface ServiceFactory {
     PlayerService getPlayerService();
     StreamerService getStreamerService();
     TournamentService getTournamentService();
+    MatchService getMatchService();
 }

@@ -5,5 +5,6 @@ import com.google.gson.annotations.SerializedName;
 public record Participant(String username,
                           Long rating,
                           String result,
-                          @SerializedName("@id") String id)
+                          @SerializedName("@id") String id,
+                          String url)
 {}
