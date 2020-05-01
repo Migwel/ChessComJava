@@ -11,6 +11,7 @@ public final class ServiceFactoryImpl implements ServiceFactory {
     private static final PlayerService playerService = new PlayerServiceImpl(fetcher);
     private static final StreamerService streamerService = new StreamerServiceImpl(fetcher);
     private static final ClubService clubService = new ClubServiceImpl(fetcher);
+    private static final TournamentService tournamentService = new TournamentServiceImpl(fetcher);
 
 
     @Override
@@ -31,6 +32,11 @@ public final class ServiceFactoryImpl implements ServiceFactory {
     @Override
     public StreamerService getStreamerService() {
         return streamerService;
+    }
+
+    @Override
+    public TournamentService getTournamentService() {
+        return tournamentService;
     }
 
     @Override
