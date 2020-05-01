@@ -4,7 +4,8 @@ This library is a Java Library that allows you to easily make calls to chess.com
 Instead of calling yourself the API https://api.chess.com/pub/player/username/stats, you can execute the following piece of code:
 
 ```
-PlayerService playerService = ServiceFactory.getPlayerService();
+ServiceFactory serviceFactory = FactoryCreator.getServiceFactory();
+PlayerService playerService = serviceFactory.getPlayerService();
 Player player = playerService.getPlayer("username");
 ```
 
