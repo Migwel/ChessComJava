@@ -8,4 +8,5 @@ public interface ServiceFactory {
     StreamerService getStreamerService();
     TournamentService getTournamentService();
     MatchService getMatchService();
+    CountryService getCountryService();
 }

@@ -13,6 +13,7 @@ public final class ServiceFactoryImpl implements ServiceFactory {
     private static final ClubService clubService = new ClubServiceImpl(fetcher);
     private static final TournamentService tournamentService = new TournamentServiceImpl(fetcher);
     private static final MatchService matchService = new MatchServiceImpl(fetcher);
+    private static final CountryService countryService = new CountryServiceImpl(fetcher);
 
 
     @Override
@@ -48,5 +49,10 @@ public final class ServiceFactoryImpl implements ServiceFactory {
     @Override
     public MatchService getMatchService() {
         return matchService;
+    }
+
+    @Override
+    public CountryService getCountryService() {
+        return countryService;
     }
 }
