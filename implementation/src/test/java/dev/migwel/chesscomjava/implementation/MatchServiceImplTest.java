@@ -65,7 +65,7 @@ class MatchServiceImplTest {
 
     @Test
     void testGetLiveBoard() {
-        Board board = matchService.getBoard("5833", "5");
+        Board board = matchService.getLiveBoard("5833", "5");
         assertEquals(2, board.games().size());
         BoardGame boardGame = board.games().iterator().next();
         assertEquals("JYDRA21", boardGame.black().username());
