@@ -1,5 +1,6 @@
 package dev.migwel.chesscomjava;
 
+import dev.migwel.chesscomjava.exception.ClientProtocolRetryableException;
 import org.apache.http.HttpResponse;
 import org.apache.http.StatusLine;
 import org.apache.http.client.ClientProtocolException;
@@ -56,6 +57,7 @@ class HttpResponseHandlerTest {
             fail();
         } catch (ClientProtocolException e) {
             assertEquals("Too many requests. We are being rate limited", e.getMessage());
+            assertTrue(e instanceof ClientProtocolRetryableException);
         }
     }
 
