@@ -5,6 +5,6 @@ import com.google.gson.annotations.SerializedName;
 import java.util.Collection;
 import java.util.Map;
 
-public record Board(@SerializedName("board_scores") Map<String, Long> boardScores,
+public record Board(@SerializedName("board_scores") Map<String, Float> boardScores,
                     Collection<BoardGame> games)
 {}
