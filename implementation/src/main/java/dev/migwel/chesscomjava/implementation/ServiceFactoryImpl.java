@@ -14,7 +14,7 @@ public final class ServiceFactoryImpl implements ServiceFactory {
     private static final TournamentService tournamentService = new TournamentServiceImpl(fetcher);
     private static final MatchService matchService = new MatchServiceImpl(fetcher);
     private static final CountryService countryService = new CountryServiceImpl(fetcher);
-
+    private static final PuzzleService puzzleService = new PuzzleServiceImpl(fetcher);
 
     @Override
     public GameService getGameService() {
@@ -54,5 +54,10 @@ public final class ServiceFactoryImpl implements ServiceFactory {
     @Override
     public CountryService getCountryService() {
         return countryService;
+    }
+
+    @Override
+    public PuzzleService getPuzzleService() {
+        return puzzleService;
     }
 }

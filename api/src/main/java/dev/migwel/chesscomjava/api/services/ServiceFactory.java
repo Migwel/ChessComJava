@@ -9,4 +9,5 @@ public interface ServiceFactory {
     TournamentService getTournamentService();
     MatchService getMatchService();
     CountryService getCountryService();
+    PuzzleService getPuzzleService();
 }
