@@ -1,7 +1,9 @@
 package dev.migwel.chesscomjava.api.data.player;
 
+import java.util.Date;
+
 public record ChessStats(long rating,
-                         long date,
+                         Date date,
                          long rd,
                          String game)
 {}

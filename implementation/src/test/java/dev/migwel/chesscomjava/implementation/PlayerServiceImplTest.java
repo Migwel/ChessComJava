@@ -11,6 +11,8 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.text.SimpleDateFormat;
+import java.util.TimeZone;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.contains;
@@ -42,6 +44,9 @@ class PlayerServiceImplTest {
         assertEquals("https://images.chesscomfiles.com/uploads/v1/user/41.f4cbdaf7.200x200o.2da5fc98b62f.jpeg", player.avatar());
         assertEquals(41, player.id());
         assertFalse(player.isStreamer());
+        SimpleDateFormat isoFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+        isoFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
+        assertEquals("2020-04-26T15:12:21", isoFormat.format(player.lastOnline()));
     }
 
     @Test
