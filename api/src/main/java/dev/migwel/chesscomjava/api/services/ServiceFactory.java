@@ -10,4 +10,5 @@ public interface ServiceFactory {
     MatchService getMatchService();
     CountryService getCountryService();
     PuzzleService getPuzzleService();
+    LeaderboardService getLeaderboardService();
 }
