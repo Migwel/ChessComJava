@@ -1,6 +1,7 @@
 package dev.migwel.chesscomjava.implementation;
 
 import dev.migwel.chesscomjava.ChessComFetcher;
+import dev.migwel.chesscomjava.HttpHelper;
 import dev.migwel.chesscomjava.api.data.participation.*;
 import dev.migwel.chesscomjava.api.services.ParticipationService;
 import dev.migwel.chesscomjava.util.FileUtil;
@@ -16,8 +17,8 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 class ParticipationServiceImplTest {
-    private final HttpClient httpClient = mock(HttpClient.class);
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
+    private final HttpHelper httpHelper = mock(HttpHelper.class);
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpHelper);
     private final ParticipationService participationService = new ParticipationServiceImpl(chessComFetcher);
 
     @BeforeEach
@@ -25,9 +26,9 @@ class ParticipationServiceImplTest {
         String clubs = FileUtil.loadFile("Clubs.json");
         String matches = FileUtil.loadFile("Matches.json");
         String tournaments = FileUtil.loadFile("Tournaments.json");
-        when(httpClient.httpGet(contains("clubs"))).thenReturn(clubs);
-        when(httpClient.httpGet(contains("matches"))).thenReturn(matches);
-        when(httpClient.httpGet(contains("tournaments"))).thenReturn(tournaments);
+        when(httpHelper.httpGet(contains("clubs"))).thenReturn(clubs);
+        when(httpHelper.httpGet(contains("matches"))).thenReturn(matches);
+        when(httpHelper.httpGet(contains("tournaments"))).thenReturn(tournaments);
     }
 
     @Test

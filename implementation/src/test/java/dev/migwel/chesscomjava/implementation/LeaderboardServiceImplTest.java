@@ -1,10 +1,10 @@
 package dev.migwel.chesscomjava.implementation;
 
 import dev.migwel.chesscomjava.ChessComFetcher;
+import dev.migwel.chesscomjava.HttpHelper;
 import dev.migwel.chesscomjava.api.data.leaderboard.LeaderboardPlayer;
 import dev.migwel.chesscomjava.api.data.leaderboard.Leaderboards;
 import dev.migwel.chesscomjava.api.services.LeaderboardService;
-import dev.migwel.chesscomjava.api.services.StreamerService;
 import dev.migwel.chesscomjava.util.FileUtil;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -19,14 +19,14 @@ import static org.mockito.Mockito.when;
 
 class LeaderboardServiceImplTest {
 
-    private final HttpClient httpClient = mock(HttpClient.class);
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
+    private final HttpHelper httpHelper = mock(HttpHelper.class);
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpHelper);
     private final LeaderboardService leaderboardService = new LeaderboardServiceImpl(chessComFetcher);
 
     @BeforeEach
     void before() throws URISyntaxException, IOException {
         String leaderboardsJson = FileUtil.loadFile("Leaderboards.json");
-        when(httpClient.httpGet(contains("leaderboards"))).thenReturn(leaderboardsJson);
+        when(httpHelper.httpGet(contains("leaderboards"))).thenReturn(leaderboardsJson);
     }
 
     @Test

@@ -1,12 +1,15 @@
 package dev.migwel.chesscomjava.implementation;
 
 import dev.migwel.chesscomjava.ChessComFetcher;
+import dev.migwel.chesscomjava.HttpHelper;
 import dev.migwel.chesscomjava.api.data.match.Board;
 import dev.migwel.chesscomjava.api.data.match.BoardGame;
 import dev.migwel.chesscomjava.api.data.match.Match;
 import dev.migwel.chesscomjava.api.data.match.TeamPlayer;
 import dev.migwel.chesscomjava.api.services.MatchService;
 import dev.migwel.chesscomjava.util.FileUtil;
+import org.apache.http.conn.HttpHostConnectException;
+import org.apache.http.impl.client.HttpClients;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -20,8 +23,8 @@ import static org.mockito.Mockito.when;
 
 class MatchServiceImplTest {
 
-    private final HttpClient httpClient = mock(HttpClient.class);
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
+    private final HttpHelper httpHelper = mock(HttpHelper.class);
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpHelper);
     private final MatchService matchService = new MatchServiceImpl(chessComFetcher);
 
     @BeforeEach
@@ -30,10 +33,10 @@ class MatchServiceImplTest {
         String liveMatchJson = FileUtil.loadFile("LiveMatch.json");
         String boardJson = FileUtil.loadFile("Board.json");
         String liveBoardJson = FileUtil.loadFile("LiveBoard.json");
-        when(httpClient.httpGet(contains("match"))).thenReturn(matchJson);
-        when(httpClient.httpGet(contains("12803/1"))).thenReturn(boardJson);
-        when(httpClient.httpGet(contains("live"))).thenReturn(liveMatchJson);
-        when(httpClient.httpGet(contains("5833/5"))).thenReturn(liveBoardJson);
+        when(httpHelper.httpGet(contains("match"))).thenReturn(matchJson);
+        when(httpHelper.httpGet(contains("12803/1"))).thenReturn(boardJson);
+        when(httpHelper.httpGet(contains("live"))).thenReturn(liveMatchJson);
+        when(httpHelper.httpGet(contains("5833/5"))).thenReturn(liveBoardJson);
     }
 
 

@@ -1,6 +1,7 @@
 package dev.migwel.chesscomjava.implementation;
 
 import dev.migwel.chesscomjava.ChessComFetcher;
+import dev.migwel.chesscomjava.HttpHelper;
 import dev.migwel.chesscomjava.api.data.streamer.Streamer;
 import dev.migwel.chesscomjava.api.data.streamer.Streamers;
 import dev.migwel.chesscomjava.api.services.StreamerService;
@@ -18,14 +19,14 @@ import static org.mockito.Mockito.*;
 
 class StreamerServiceImplTest {
 
-    private final HttpClient httpClient = mock(HttpClient.class);
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
+    private final HttpHelper httpHelper = mock(HttpHelper.class);
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpHelper);
     private final StreamerService streamerService = new StreamerServiceImpl(chessComFetcher);
 
     @BeforeEach
     void before() throws URISyntaxException, IOException {
         String streamersJson = FileUtil.loadFile("Streamers.json");
-        when(httpClient.httpGet(contains("https://api.chess.com/pub/streamers"))).thenReturn(streamersJson);
+        when(httpHelper.httpGet(contains("https://api.chess.com/pub/streamers"))).thenReturn(streamersJson);
     }
 
     @Test

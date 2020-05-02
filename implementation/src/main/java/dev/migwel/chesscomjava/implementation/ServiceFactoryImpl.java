@@ -1,11 +1,13 @@
 package dev.migwel.chesscomjava.implementation;
 
 import dev.migwel.chesscomjava.ChessComFetcher;
+import dev.migwel.chesscomjava.HttpHelper;
 import dev.migwel.chesscomjava.api.services.*;
+import org.apache.http.impl.client.HttpClients;
 
 public final class ServiceFactoryImpl implements ServiceFactory {
 
-    private static final ChessComFetcher fetcher = new ChessComFetcher(new HttpClient());
+    private static final ChessComFetcher fetcher = new ChessComFetcher(new HttpHelper(HttpClients.createDefault()));
     private static final GameService gameService = new GameServiceImpl(fetcher);
     private static final ParticipationService participationService = new ParticipationServiceImpl(fetcher);
     private static final PlayerService playerService = new PlayerServiceImpl(fetcher);

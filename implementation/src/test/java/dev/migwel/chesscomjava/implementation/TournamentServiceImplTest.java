@@ -1,8 +1,8 @@
 package dev.migwel.chesscomjava.implementation;
 
 import dev.migwel.chesscomjava.ChessComFetcher;
+import dev.migwel.chesscomjava.HttpHelper;
 import dev.migwel.chesscomjava.api.data.tournament.*;
-import dev.migwel.chesscomjava.api.services.StreamerService;
 import dev.migwel.chesscomjava.api.services.TournamentService;
 import dev.migwel.chesscomjava.util.FileUtil;
 import org.junit.jupiter.api.BeforeEach;
@@ -18,8 +18,8 @@ import static org.mockito.Mockito.when;
 
 class TournamentServiceImplTest {
 
-    private final HttpClient httpClient = mock(HttpClient.class);
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
+    private final HttpHelper httpHelper = mock(HttpHelper.class);
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpHelper);
     private final TournamentService tournamentService = new TournamentServiceImpl(chessComFetcher);
 
     @BeforeEach
@@ -27,9 +27,9 @@ class TournamentServiceImplTest {
         String tournamentJson = FileUtil.loadFile("Tournament.json");
         String tournamentRoundJson = FileUtil.loadFile("TournamentRound.json");
         String roundGroupJson = FileUtil.loadFile("RoundGroup.json");
-        when(httpClient.httpGet(contains("tournament"))).thenReturn(tournamentJson);
-        when(httpClient.httpGet(contains("/1"))).thenReturn(tournamentRoundJson);
-        when(httpClient.httpGet(contains("/1/1"))).thenReturn(roundGroupJson);
+        when(httpHelper.httpGet(contains("tournament"))).thenReturn(tournamentJson);
+        when(httpHelper.httpGet(contains("/1"))).thenReturn(tournamentRoundJson);
+        when(httpHelper.httpGet(contains("/1/1"))).thenReturn(roundGroupJson);
     }
 
     @Test

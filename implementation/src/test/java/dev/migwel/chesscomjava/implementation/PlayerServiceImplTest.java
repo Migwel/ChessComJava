@@ -1,6 +1,7 @@
 package dev.migwel.chesscomjava.implementation;
 
 import dev.migwel.chesscomjava.ChessComFetcher;
+import dev.migwel.chesscomjava.HttpHelper;
 import dev.migwel.chesscomjava.api.data.player.Player;
 import dev.migwel.chesscomjava.api.data.player.PlayerStats;
 import dev.migwel.chesscomjava.api.data.player.TitledPlayers;
@@ -21,8 +22,8 @@ import static org.mockito.Mockito.when;
 
 class PlayerServiceImplTest {
 
-    private final HttpClient httpClient = mock(HttpClient.class);
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
+    private final HttpHelper httpHelper = mock(HttpHelper.class);
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpHelper);
     private final PlayerService playerService = new PlayerServiceImpl(chessComFetcher);
 
     @BeforeEach
@@ -31,10 +32,10 @@ class PlayerServiceImplTest {
         String titled = FileUtil.loadFile("Titled.json");
         String playerStats = FileUtil.loadFile("PlayerStats.json");
         String isOnline = FileUtil.loadFile("IsOnline.json");
-        when(httpClient.httpGet(contains("player"))).thenReturn(profile);
-        when(httpClient.httpGet(contains("titled"))).thenReturn(titled);
-        when(httpClient.httpGet(contains("stats"))).thenReturn(playerStats);
-        when(httpClient.httpGet(contains("online"))).thenReturn(isOnline);
+        when(httpHelper.httpGet(contains("player"))).thenReturn(profile);
+        when(httpHelper.httpGet(contains("titled"))).thenReturn(titled);
+        when(httpHelper.httpGet(contains("stats"))).thenReturn(playerStats);
+        when(httpHelper.httpGet(contains("online"))).thenReturn(isOnline);
     }
 
     @Test

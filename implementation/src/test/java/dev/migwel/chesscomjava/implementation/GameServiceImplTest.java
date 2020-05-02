@@ -1,6 +1,7 @@
 package dev.migwel.chesscomjava.implementation;
 
 import dev.migwel.chesscomjava.ChessComFetcher;
+import dev.migwel.chesscomjava.HttpHelper;
 import dev.migwel.chesscomjava.api.data.games.*;
 import dev.migwel.chesscomjava.api.services.GameService;
 import dev.migwel.chesscomjava.util.FileUtil;
@@ -17,8 +18,8 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 class GameServiceImplTest {
-    private final HttpClient httpClient = mock(HttpClient.class);
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
+    private final HttpHelper httpHelper = mock(HttpHelper.class);
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpHelper);
     private final GameService gameService = new GameServiceImpl(chessComFetcher);
 
     @BeforeEach
@@ -27,10 +28,10 @@ class GameServiceImplTest {
         String gamesToMove = FileUtil.loadFile("GamesToMove.json");
         String pastGames = FileUtil.loadFile("PastGames.json");
         String pastGamesInMonth = FileUtil.loadFile("PastGamesInMonth.json");
-        when(httpClient.httpGet(contains("games"))).thenReturn(currentGames);
-        when(httpClient.httpGet(contains("to-move"))).thenReturn(gamesToMove);
-        when(httpClient.httpGet(contains("archives"))).thenReturn(pastGames);
-        when(httpClient.httpGet(contains("2009"))).thenReturn(pastGamesInMonth);
+        when(httpHelper.httpGet(contains("games"))).thenReturn(currentGames);
+        when(httpHelper.httpGet(contains("to-move"))).thenReturn(gamesToMove);
+        when(httpHelper.httpGet(contains("archives"))).thenReturn(pastGames);
+        when(httpHelper.httpGet(contains("2009"))).thenReturn(pastGamesInMonth);
     }
 
 

@@ -1,8 +1,8 @@
 package dev.migwel.chesscomjava.implementation;
 
 import dev.migwel.chesscomjava.ChessComFetcher;
+import dev.migwel.chesscomjava.HttpHelper;
 import dev.migwel.chesscomjava.api.data.puzzle.Puzzle;
-import dev.migwel.chesscomjava.api.services.ClubService;
 import dev.migwel.chesscomjava.api.services.PuzzleService;
 import dev.migwel.chesscomjava.util.FileUtil;
 import org.junit.jupiter.api.BeforeEach;
@@ -18,16 +18,16 @@ import static org.mockito.Mockito.when;
 
 class PuzzleServiceImplTest {
 
-    private final HttpClient httpClient = mock(HttpClient.class);
-    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpClient);
+    private final HttpHelper httpHelper = mock(HttpHelper.class);
+    private final ChessComFetcher chessComFetcher = new ChessComFetcher(httpHelper);
     private final PuzzleService puzzleService = new PuzzleServiceImpl(chessComFetcher);
 
     @BeforeEach
     void before() throws URISyntaxException, IOException {
         String dailyPuzzleJson = FileUtil.loadFile("DailyPuzzle.json");
         String randomPuzzleJson = FileUtil.loadFile("RandomPuzzle.json");
-        when(httpClient.httpGet(contains("puzzle"))).thenReturn(dailyPuzzleJson);
-        when(httpClient.httpGet(contains("random"))).thenReturn(randomPuzzleJson);
+        when(httpHelper.httpGet(contains("puzzle"))).thenReturn(dailyPuzzleJson);
+        when(httpHelper.httpGet(contains("random"))).thenReturn(randomPuzzleJson);
     }
 
     @Test
