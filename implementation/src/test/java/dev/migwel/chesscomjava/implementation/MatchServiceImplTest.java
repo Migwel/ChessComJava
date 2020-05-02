@@ -52,7 +52,7 @@ class MatchServiceImplTest {
         assertEquals(2, board.games().size());
         BoardGame boardGame = board.games().iterator().next();
         assertEquals("Kllr", boardGame.black().username());
-        assertEquals(1, board.boardScores().get("kllr"));
+        assertEquals(1f, board.boardScores().get("kllr"));
     }
 
     @Test
