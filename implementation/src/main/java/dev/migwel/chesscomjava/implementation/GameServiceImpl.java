@@ -37,7 +37,7 @@ public class GameServiceImpl implements GameService {
     }
 
     @Override
-    public void getPgnFile(String username, YearMonth yearMonth) {
-        throw new UnsupportedOperationException(); //TODO
+    public String getPgnFile(String username, YearMonth yearMonth) {
+        return fetcher.fetch(String.format("https://api.chess.com/pub/player/%s/games/%d/%d/pgn", username, yearMonth.getYear(), yearMonth.getMonthValue()));
     }
 }

@@ -35,5 +35,7 @@ public class ChessComFetcher {
         return responseObject;
     }
 
-
+    public String fetch(String url) {
+        return httpHelper.httpGet(url);
+    }
 }

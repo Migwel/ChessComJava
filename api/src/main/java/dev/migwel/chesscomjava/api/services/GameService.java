@@ -11,5 +11,5 @@ public interface GameService {
     PlayerGames getPlayerGamesToMove(String username);
     PlayerArchives getPlayerPastGames(String username);
     PlayerPastGames getPlayerPastGames(String username, YearMonth yearMonth);
-    void getPgnFile(String username, YearMonth yearMonth);
+    String getPgnFile(String username, YearMonth yearMonth);
 }
