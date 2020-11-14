@@ -5,7 +5,7 @@ allprojects {
     group 'dev.migwel.chesscomjava'
     version '1.0-SNAPSHOT'
 
-    sourceCompatibility = 1.14
+    sourceCompatibility = 15
 
     repositories {
         mavenCentral()
