@@ -6,16 +6,16 @@ import java.util.Collection;
 import java.util.Date;
 
 public record Club(@JsonProperty("@id") String id,
-                   String name,
+                   @JsonProperty("name") String name,
                    @JsonProperty("club_id") Long clubId,
-                   String icon,
-                   String country,
+                   @JsonProperty("icon") String icon,
+                   @JsonProperty("country") String country,
                    @JsonProperty("average_daily_rating") Long averageDailyRating,
                    @JsonProperty("members_count") Long membersCount,
-                   Date created,
+                   @JsonProperty("created") Date created,
                    @JsonProperty("last_activity") Date lastActivity,
-                   String visibility,
+                   @JsonProperty("visibility") String visibility,
                    @JsonProperty("join_request") String joinRequest,
-                   Collection<String> admin,
-                   String description)
+                   @JsonProperty("admin") Collection<String> admin,
+                   @JsonProperty("description") String description)
 {}

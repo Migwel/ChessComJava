@@ -5,10 +5,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Collection;
 
 public record Team(@JsonProperty("@id") String id,
-                   String url,
-                   String name,
-                   Float score,
-                   String result,
-                   Collection<TeamPlayer> players,
-                   Collection<String> fair_play_removals)
+                   @JsonProperty("url") String url,
+                   @JsonProperty("name") String name,
+                   @JsonProperty("score") Float score,
+                   @JsonProperty("result") String result,
+                   @JsonProperty("players") Collection<TeamPlayer> players,
+                   @JsonProperty("fair_play_removals") Collection<String> fair_play_removals)
 {}

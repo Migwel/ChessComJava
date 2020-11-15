@@ -6,5 +6,5 @@ import java.util.Collection;
 import java.util.Map;
 
 public record Board(@JsonProperty("board_scores") Map<String, Float> boardScores,
-                    Collection<BoardGame> games)
+                    @JsonProperty("games") Collection<BoardGame> games)
 {}

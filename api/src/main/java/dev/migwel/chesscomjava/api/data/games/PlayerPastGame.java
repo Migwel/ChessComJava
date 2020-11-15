@@ -4,16 +4,16 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 
-public record PlayerPastGame(Participant white,
-                             Participant black,
-                             String url,
-                             String fen,
-                             String pgn,
+public record PlayerPastGame(@JsonProperty("white") Participant white,
+                             @JsonProperty("black") Participant black,
+                             @JsonProperty("url") String url,
+                             @JsonProperty("fen") String fen,
+                             @JsonProperty("pgn") String pgn,
                              @JsonProperty("start_time") Date startTime,
                              @JsonProperty("end_time") Date endTime,
                              @JsonProperty("time_control") String timeControl,
-                             String rules,
-                             String eco,
-                             String tournament,
-                             String match)
+                             @JsonProperty("rules") String rules,
+                             @JsonProperty("eco") String eco,
+                             @JsonProperty("tournament") String tournament,
+                             @JsonProperty("match") String match)
 {}

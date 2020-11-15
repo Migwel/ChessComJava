@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Collection;
 
-public record MatchesParticipations(Collection<MatchParticipation> finished,
+public record MatchesParticipations(@JsonProperty("finished") Collection<MatchParticipation> finished,
                                     @JsonProperty("in_progress") Collection<MatchParticipation> inProgress,
-                                    Collection<MatchParticipation> registered)
+                                    @JsonProperty("registered") Collection<MatchParticipation> registered)
 {}

@@ -4,8 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Collection;
 
-public record Leaderboards(Collection<LeaderboardPlayer> daily,
-                           Collection<LeaderboardPlayer> daily960,
+public record Leaderboards(@JsonProperty("daily") Collection<LeaderboardPlayer> daily,
+                           @JsonProperty("daily960") Collection<LeaderboardPlayer> daily960,
                            @JsonProperty("live_rapid") Collection<LeaderboardPlayer> liveRapid,
                            @JsonProperty("live_blitz") Collection<LeaderboardPlayer> liveBlitz,
                            @JsonProperty("live_bullet") Collection<LeaderboardPlayer> liveBullet,

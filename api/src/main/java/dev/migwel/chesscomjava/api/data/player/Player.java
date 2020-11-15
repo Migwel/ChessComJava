@@ -6,15 +6,15 @@ import dev.migwel.chesscomjava.api.deserializer.DateDeserializer;
 
 import java.util.Date;
 
-public record Player(String avatar,
+public record Player(@JsonProperty("avatar") String avatar,
                      @JsonProperty("player_id") Long id,
-                     String url,
-                     String username,
-                     Long followers,
-                     String country,
+                     @JsonProperty("url") String url,
+                     @JsonProperty("username") String username,
+                     @JsonProperty("followers") Long followers,
+                     @JsonProperty("country") String country,
                      @JsonProperty("last_online") @JsonDeserialize(using = DateDeserializer.class) Date lastOnline,
-                     Date joined,
-                     String status,
+                     @JsonProperty("joined") Date joined,
+                     @JsonProperty("status") String status,
                      @JsonProperty("is_streamer") boolean isStreamer)
 
 {}

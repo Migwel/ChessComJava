@@ -1,5 +1,7 @@
 package dev.migwel.chesscomjava.api.data.player;
 
-public record TacticsResults(TacticsStats highest,
-                             TacticsStats lowest)
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public record TacticsResults(@JsonProperty("highest") TacticsStats highest,
+                             @JsonProperty("lowest") TacticsStats lowest)
 {}

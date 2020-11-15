@@ -1,4 +1,6 @@
 package dev.migwel.chesscomjava.api.data.player;
 
-public record PlayerOnline(boolean online)
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public record PlayerOnline(@JsonProperty("online") boolean online)
 {}

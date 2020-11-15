@@ -4,10 +4,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 
-public record ClubMatch(String name,
+public record ClubMatch(@JsonProperty("name") String name,
                         @JsonProperty("@id") String id,
-                        String opponent,
-                        String result,
+                        @JsonProperty("opponent") String opponent,
+                        @JsonProperty("result") String result,
                         @JsonProperty("start_time") Date startTime,
                         @JsonProperty("time_class") String timeClass)
 {}

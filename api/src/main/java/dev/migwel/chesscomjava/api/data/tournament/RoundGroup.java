@@ -5,6 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Collection;
 
 public record RoundGroup(@JsonProperty("fair_play_removals") Collection<String> fairPlayRemovals,
-                         Collection<GroupGame> games,
-                         Collection<GroupPlayer> players)
+                         @JsonProperty("games") Collection<GroupGame> games,
+                         @JsonProperty("players") Collection<GroupPlayer> players)
 {}

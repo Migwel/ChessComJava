@@ -1,5 +1,7 @@
 package dev.migwel.chesscomjava.api.data.player;
 
-public record PuzzleRushResults(PuzzleRushStats daily,
-                                PuzzleRushStats best)
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public record PuzzleRushResults(@JsonProperty("daily") PuzzleRushStats daily,
+                                @JsonProperty("best") PuzzleRushStats best)
 {}

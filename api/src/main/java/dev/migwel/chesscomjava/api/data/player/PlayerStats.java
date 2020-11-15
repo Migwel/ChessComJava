@@ -7,7 +7,7 @@ public record PlayerStats(@JsonProperty("chess_rapid") ChessResults rapidChessRe
                          @JsonProperty("chess_blitz") ChessResults blitzChessResults,
                          @JsonProperty("chess960_daily") ChessResults chess960DailyResults,
                          @JsonProperty("chess_daily") ChessResults chessDailyResults,
-                         long fide,
+                          @JsonProperty("fide") long fide,
                          @JsonProperty("tactics") TacticsResults tacticsResults,
                          @JsonProperty("lessons") TacticsResults lessonsResults,
                          @JsonProperty("puzzle_rush") PuzzleRushResults puzzleRushResults)

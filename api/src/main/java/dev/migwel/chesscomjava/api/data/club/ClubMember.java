@@ -1,5 +1,7 @@
 package dev.migwel.chesscomjava.api.data.club;
 
-public record ClubMember(String username,
-                         String joined)
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public record ClubMember(@JsonProperty("username") String username,
+                         @JsonProperty("joined") String joined)
 {}

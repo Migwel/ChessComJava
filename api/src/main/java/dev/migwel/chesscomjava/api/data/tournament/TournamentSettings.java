@@ -2,8 +2,8 @@ package dev.migwel.chesscomjava.api.data.tournament;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public record TournamentSettings(String type,
-                                 String rules,
+public record TournamentSettings(@JsonProperty("type") String type,
+                                 @JsonProperty("rules") String rules,
                                  @JsonProperty("time_class") String timeClass,
                                  @JsonProperty("time_control") String timeControl,
                                  @JsonProperty("is_rated") Boolean isRated,

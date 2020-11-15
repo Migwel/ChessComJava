@@ -5,12 +5,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Date;
 
 public record Match(@JsonProperty("@id") String id,
-                    String name,
-                    String url,
-                    String description,
+                    @JsonProperty("name") String name,
+                    @JsonProperty("url") String url,
+                    @JsonProperty("description") String description,
                     @JsonProperty("start_time")Date startTime,
-                    MatchSettings settings,
-                    String status,
-                    Long boards,
-                    Teams teams)
+                    @JsonProperty("settings") MatchSettings settings,
+                    @JsonProperty("status") String status,
+                    @JsonProperty("boards") Long boards,
+                    @JsonProperty("teams") Teams teams)
 {}

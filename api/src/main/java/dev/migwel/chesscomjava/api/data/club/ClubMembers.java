@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Collection;
 
-public record ClubMembers(Collection<ClubMember> weekly,
-                          Collection<ClubMember> monthly,
+public record ClubMembers(@JsonProperty("weekly") Collection<ClubMember> weekly,
+                          @JsonProperty("monthly") Collection<ClubMember> monthly,
                           @JsonProperty("all_time") Collection<ClubMember> allTime)
 {}

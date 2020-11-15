@@ -4,10 +4,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 
-public record Puzzle(String title,
-                     String url,
+public record Puzzle(@JsonProperty("title") String title,
+                     @JsonProperty("url") String url,
                      @JsonProperty("publish_time") Date publishTime,
-                     String fen,
-                     String pgn,
-                     String image)
+                     @JsonProperty("fen") String fen,
+                     @JsonProperty("pgn") String pgn,
+                     @JsonProperty("image") String image)
 {}
