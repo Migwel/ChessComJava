@@ -1,7 +1,7 @@
 package dev.migwel.chesscomjava.api.data.participation;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-public record Results(@SerializedName("played_as_white") String playedAsWhite,
-                      @SerializedName("played_as_black") String playedAsBlack)
+public record Results(@JsonProperty("played_as_white") String playedAsWhite,
+                      @JsonProperty("played_as_black") String playedAsBlack)
 {}

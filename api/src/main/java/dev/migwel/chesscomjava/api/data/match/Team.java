@@ -1,10 +1,10 @@
 package dev.migwel.chesscomjava.api.data.match;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Collection;
 
-public record Team(@SerializedName("@id") String id,
+public record Team(@JsonProperty("@id") String id,
                    String url,
                    String name,
                    Float score,

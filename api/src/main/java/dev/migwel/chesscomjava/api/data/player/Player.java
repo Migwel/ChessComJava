@@ -1,18 +1,20 @@
 package dev.migwel.chesscomjava.api.data.player;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import dev.migwel.chesscomjava.api.deserializer.DateDeserializer;
 
 import java.util.Date;
 
 public record Player(String avatar,
-                     @SerializedName("player_id") Long id,
+                     @JsonProperty("player_id") Long id,
                      String url,
                      String username,
                      Long followers,
                      String country,
-                     @SerializedName("last_online") Date lastOnline,
+                     @JsonProperty("last_online") @JsonDeserialize(using = DateDeserializer.class) Date lastOnline,
                      Date joined,
                      String status,
-                     @SerializedName("is_streamer") boolean isStreamer)
+                     @JsonProperty("is_streamer") boolean isStreamer)
 
 {}

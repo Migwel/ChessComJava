@@ -1,8 +1,8 @@
 package dev.migwel.chesscomjava.api.data.country;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-public record Country(@SerializedName("@id") String id,
+public record Country(@JsonProperty("@id") String id,
                       String name,
                       String code)
 {}

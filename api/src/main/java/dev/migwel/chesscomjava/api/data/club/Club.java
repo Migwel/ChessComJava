@@ -1,21 +1,21 @@
 package dev.migwel.chesscomjava.api.data.club;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Collection;
 import java.util.Date;
 
-public record Club(@SerializedName("@id") String id,
+public record Club(@JsonProperty("@id") String id,
                    String name,
-                   @SerializedName("club_id") Long clubId,
+                   @JsonProperty("club_id") Long clubId,
                    String icon,
                    String country,
-                   @SerializedName("average_daily_rating") Long averageDailyRating,
-                   @SerializedName("members_count") Long membersCount,
+                   @JsonProperty("average_daily_rating") Long averageDailyRating,
+                   @JsonProperty("members_count") Long membersCount,
                    Date created,
-                   @SerializedName("last_activity") Date lastActivity,
+                   @JsonProperty("last_activity") Date lastActivity,
                    String visibility,
-                   @SerializedName("join_request") String joinRequest,
+                   @JsonProperty("join_request") String joinRequest,
                    Collection<String> admin,
                    String description)
 {}

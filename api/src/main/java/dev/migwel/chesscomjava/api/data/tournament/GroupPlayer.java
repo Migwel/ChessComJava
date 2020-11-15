@@ -1,9 +1,9 @@
 package dev.migwel.chesscomjava.api.data.tournament;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public record GroupPlayer(String username,
                           Float points,
-                          @SerializedName("tie_break") Float tieBreak,
-                          @SerializedName("is_advancing") Boolean isAdvancing)
+                          @JsonProperty("tie_break") Float tieBreak,
+                          @JsonProperty("is_advancing") Boolean isAdvancing)
 {}

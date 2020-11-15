@@ -1,6 +1,6 @@
 package dev.migwel.chesscomjava.api.data.match;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import dev.migwel.chesscomjava.api.data.games.Participant;
 
 import java.util.Date;
@@ -10,10 +10,10 @@ public record BoardGame(Participant white,
                         String url,
                         String fen,
                         String pgn,
-                        @SerializedName("start_time")Date startTime,
-                        @SerializedName("end_time") Date endTime,
-                        @SerializedName("time_control") String timeControl,
-                        @SerializedName("time_class") String timeClass,
+                        @JsonProperty("start_time")Date startTime,
+                        @JsonProperty("end_time") Date endTime,
+                        @JsonProperty("time_control") String timeControl,
+                        @JsonProperty("time_class") String timeClass,
                         String rules,
                         String eco,
                         String match,

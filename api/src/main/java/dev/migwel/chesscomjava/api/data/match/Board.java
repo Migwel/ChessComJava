@@ -1,10 +1,10 @@
 package dev.migwel.chesscomjava.api.data.match;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Collection;
 import java.util.Map;
 
-public record Board(@SerializedName("board_scores") Map<String, Float> boardScores,
+public record Board(@JsonProperty("board_scores") Map<String, Float> boardScores,
                     Collection<BoardGame> games)
 {}

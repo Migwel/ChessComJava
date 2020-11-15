@@ -1,19 +1,19 @@
 package dev.migwel.chesscomjava.api.data.leaderboard;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Collection;
 
 public record Leaderboards(Collection<LeaderboardPlayer> daily,
                            Collection<LeaderboardPlayer> daily960,
-                           @SerializedName("live_rapid") Collection<LeaderboardPlayer> liveRapid,
-                           @SerializedName("live_blitz") Collection<LeaderboardPlayer> liveBlitz,
-                           @SerializedName("live_bullet") Collection<LeaderboardPlayer> liveBullet,
-                           @SerializedName("live_bughouse") Collection<LeaderboardPlayer> liveBughouse,
-                           @SerializedName("live_blitz960") Collection<LeaderboardPlayer> liveBlitz960,
-                           @SerializedName("live_threecheck") Collection<LeaderboardPlayer> liveThreeCheck,
-                           @SerializedName("live_crazyhouse") Collection<LeaderboardPlayer> liveCrazyHouse,
-                           @SerializedName("live_kingofthehill") Collection<LeaderboardPlayer> liveKingOfTheHill,
-                           @SerializedName("lessons") Collection<LeaderboardPlayer> lessons,
-                           @SerializedName("tactics") Collection<LeaderboardPlayer> tactics)
+                           @JsonProperty("live_rapid") Collection<LeaderboardPlayer> liveRapid,
+                           @JsonProperty("live_blitz") Collection<LeaderboardPlayer> liveBlitz,
+                           @JsonProperty("live_bullet") Collection<LeaderboardPlayer> liveBullet,
+                           @JsonProperty("live_bughouse") Collection<LeaderboardPlayer> liveBughouse,
+                           @JsonProperty("live_blitz960") Collection<LeaderboardPlayer> liveBlitz960,
+                           @JsonProperty("live_threecheck") Collection<LeaderboardPlayer> liveThreeCheck,
+                           @JsonProperty("live_crazyhouse") Collection<LeaderboardPlayer> liveCrazyHouse,
+                           @JsonProperty("live_kingofthehill") Collection<LeaderboardPlayer> liveKingOfTheHill,
+                           @JsonProperty("lessons") Collection<LeaderboardPlayer> lessons,
+                           @JsonProperty("tactics") Collection<LeaderboardPlayer> tactics)
 {}

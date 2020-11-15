@@ -1,7 +1,7 @@
 package dev.migwel.chesscomjava.api.data.tournament;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public record RoundPlayer(String username,
-                          @SerializedName("is_advancing") Boolean isAdvancing)
+                          @JsonProperty("is_advancing") Boolean isAdvancing)
 {}

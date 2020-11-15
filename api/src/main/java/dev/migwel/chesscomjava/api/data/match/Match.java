@@ -1,14 +1,14 @@
 package dev.migwel.chesscomjava.api.data.match;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 
-public record Match(@SerializedName("@id") String id,
+public record Match(@JsonProperty("@id") String id,
                     String name,
                     String url,
                     String description,
-                    @SerializedName("start_time")Date startTime,
+                    @JsonProperty("start_time")Date startTime,
                     MatchSettings settings,
                     String status,
                     Long boards,

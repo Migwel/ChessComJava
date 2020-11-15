@@ -1,12 +1,12 @@
 package dev.migwel.chesscomjava.api.data.participation;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 
-public record Club(@SerializedName("@id") String id,
+public record Club(@JsonProperty("@id") String id,
                    String name,
-                   @SerializedName("last_activity") Date lastActivity,
+                   @JsonProperty("last_activity") Date lastActivity,
                    String icon,
                    String url,
                    Date joined)

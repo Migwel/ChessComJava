@@ -1,6 +1,6 @@
 package dev.migwel.chesscomjava.api.data.games;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 
@@ -9,9 +9,9 @@ public record PlayerPastGame(Participant white,
                              String url,
                              String fen,
                              String pgn,
-                             @SerializedName("start_time") Date startTime,
-                             @SerializedName("end_time") Date endTime,
-                             @SerializedName("time_control") String timeControl,
+                             @JsonProperty("start_time") Date startTime,
+                             @JsonProperty("end_time") Date endTime,
+                             @JsonProperty("time_control") String timeControl,
                              String rules,
                              String eco,
                              String tournament,

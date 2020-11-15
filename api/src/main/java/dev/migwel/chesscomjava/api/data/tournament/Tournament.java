@@ -1,6 +1,6 @@
 package dev.migwel.chesscomjava.api.data.tournament;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Collection;
 import java.util.Date;
@@ -10,7 +10,7 @@ public record Tournament(String name,
                          String description,
                          String creator,
                          String status,
-                         @SerializedName("finish_time") Date finishTime,
+                         @JsonProperty("finish_time") Date finishTime,
                          TournamentSettings settings,
                          Collection<TournamentPlayer> players,
                          Collection<String>rounds)

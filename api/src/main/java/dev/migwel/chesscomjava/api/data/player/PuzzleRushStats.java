@@ -1,7 +1,7 @@
 package dev.migwel.chesscomjava.api.data.player;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-public record PuzzleRushStats(@SerializedName("total_attempts") Integer totalAttempts,
+public record PuzzleRushStats(@JsonProperty("total_attempts") Integer totalAttempts,
                               Integer score)
 {}

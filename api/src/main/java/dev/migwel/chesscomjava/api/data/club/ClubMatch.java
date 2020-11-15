@@ -1,13 +1,13 @@
 package dev.migwel.chesscomjava.api.data.club;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 
 public record ClubMatch(String name,
-                        @SerializedName("@id") String id,
+                        @JsonProperty("@id") String id,
                         String opponent,
                         String result,
-                        @SerializedName("start_time") Date startTime,
-                        @SerializedName("time_class") String timeClass)
+                        @JsonProperty("start_time") Date startTime,
+                        @JsonProperty("time_class") String timeClass)
 {}

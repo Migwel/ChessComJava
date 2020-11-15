@@ -1,9 +1,9 @@
 package dev.migwel.chesscomjava.api.data.streamer;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public record Streamer(String username,
                        String avatar,
-                       @SerializedName("twitch_url") String twitchUrl,
+                       @JsonProperty("twitch_url") String twitchUrl,
                        String url)
 {}

@@ -1,9 +1,9 @@
 package dev.migwel.chesscomjava.api.data.leaderboard;
 
-import com.google.gson.annotations.SerializedName;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-public record LeaderboardPlayer(@SerializedName("player_id") String playerId,
-                                @SerializedName("@id") String id,
+public record LeaderboardPlayer(@JsonProperty("player_id") String playerId,
+                                @JsonProperty("@id") String id,
                                 String url,
                                 String username,
                                 Long score,
