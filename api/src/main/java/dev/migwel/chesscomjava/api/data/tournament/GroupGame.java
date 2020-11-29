@@ -1,13 +1,15 @@
 package dev.migwel.chesscomjava.api.data.tournament;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import dev.migwel.chesscomjava.api.data.Color;
 import dev.migwel.chesscomjava.api.data.games.Participant;
+import dev.migwel.chesscomjava.api.deserializer.ParticipantDeserializer;
 
 import java.util.Date;
 
-public record GroupGame(@JsonProperty("white") Participant white,
-                        @JsonProperty("black") Participant black,
+public record GroupGame(@JsonProperty("white") @JsonDeserialize(using = ParticipantDeserializer.class) Participant white,
+                        @JsonProperty("black") @JsonDeserialize(using = ParticipantDeserializer.class) Participant black,
                         @JsonProperty("url") String url,
                         @JsonProperty("fen") String fen,
                         @JsonProperty("pgn") String pgn, //TODO: Create a PGN object that would be easier to use

@@ -26,10 +26,13 @@ class TournamentServiceImplTest {
     void before() throws URISyntaxException, IOException {
         String tournamentJson = FileUtil.loadFile("Tournament.json");
         String tournamentRoundJson = FileUtil.loadFile("TournamentRound.json");
-        String roundGroupJson = FileUtil.loadFile("RoundGroup.json");
+        String roundGroupWhiteBlackObjectJson = FileUtil.loadFile("RoundGroupWhiteBlackObject.json");
+        String roundGroupWhiteBlackStringJson = FileUtil.loadFile("RoundGroupWhiteBlackString.json");
         when(httpHelper.httpGet(contains("tournament"))).thenReturn(tournamentJson);
         when(httpHelper.httpGet(contains("/1"))).thenReturn(tournamentRoundJson);
-        when(httpHelper.httpGet(contains("/1/1"))).thenReturn(roundGroupJson);
+        when(httpHelper.httpGet(contains("/1/1"))).thenReturn(roundGroupWhiteBlackObjectJson);
+        when(httpHelper.httpGet(contains("-33rd-chesscom-quick-knockouts-1401-1600/1/1"))).thenReturn(roundGroupWhiteBlackObjectJson);
+        when(httpHelper.httpGet(contains("5th-chess-com-chess960-quick-knockouts-under-1000/1/1"))).thenReturn(roundGroupWhiteBlackStringJson);
     }
 
     @Test
@@ -49,8 +52,12 @@ class TournamentServiceImplTest {
         assertTrue(player.isAdvancing());
     }
 
+    /*
+     * chess.com is not consistent with how they represent white/black values in their group. Sometimes it's an object, sometimes it's a string...
+     * See https://www.chess.com/clubs/forum/view/inconsistency-in-white-black-format-in-tournamentroundgroup for more info
+     */
     @Test
-    void testGetGroup() {
+    void testGetGroup_ObjectWhiteBlack() {
         RoundGroup roundGroup = tournamentService.getGroup("-33rd-chesscom-quick-knockouts-1401-1600", "1", "1");
         assertEquals(5, roundGroup.players().size());
         GroupGame game = roundGroup.games().iterator().next();
@@ -58,6 +65,16 @@ class TournamentServiceImplTest {
         GroupPlayer player = roundGroup.players().iterator().next();
         assertEquals("mrtn", player.username());
         assertFalse(player.isAdvancing());
+    }
 
+    @Test
+    void testGetGroup_StringWhiteBlack() {
+        RoundGroup roundGroup = tournamentService.getGroup("5th-chess-com-chess960-quick-knockouts-under-1000", "1", "1");
+        assertEquals(5, roundGroup.players().size());
+        GroupGame game = roundGroup.games().iterator().next();
+        assertEquals("mainak_roy", game.black().username());
+        GroupPlayer player = roundGroup.players().iterator().next();
+        assertEquals("gs20598", player.username());
+        assertFalse(player.isAdvancing());
     }
 }

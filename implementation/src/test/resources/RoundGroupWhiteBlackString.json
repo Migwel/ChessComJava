@@ -1,0 +1,486 @@
+{
+  "fair_play_removals": [],
+  "games": [
+    {
+      "url": "https://www.chess.com/game/daily/289647422",
+      "move_by": 1606637668,
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"2\"]\n[White \"RainbowSandcastle\"]\n[Black \"Mainak_Roy\"]\n[Result \"*\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/ppp1pppp/8/3p4/3P4/1N6/PPP1PPPP/1BQRKNBR b KDkd - 1 2\"]\n[Timezone \"UTC\"]\n[ECO \"D00\"]\n[ECOUrl \"https://www.chess.com/openings/Queens-Pawn-Opening-1...d5\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[StartTime \"12:28:44\"]\n[Link \"https://www.chess.com/game/daily/289647422\"]\n\n1. d4 d5 2. Nb3 *",
+      "time_control": "1/86400",
+      "last_activity": 1606551268,
+      "rated": true,
+      "turn": "black",
+      "fen": "nbqrknbr/ppp1pppp/8/3p4/3P4/1N6/PPP1PPPP/1BQRKNBR b KDkd - 1 2",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": "https://api.chess.com/pub/player/rainbowsandcastle",
+      "black": "https://api.chess.com/pub/player/mainak_roy",
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647418",
+      "move_by": 1606637406,
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"1\"]\n[White \"Mainak_Roy\"]\n[Black \"RainbowSandcastle\"]\n[Result \"*\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/NBQRKNBR w KDkd c6 0 2\"]\n[Timezone \"UTC\"]\n[ECO \"B20\"]\n[ECOUrl \"https://www.chess.com/openings/Sicilian-Defense\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[StartTime \"12:28:44\"]\n[Link \"https://www.chess.com/game/daily/289647418\"]\n\n1. e4 c5 *",
+      "time_control": "1/86400",
+      "last_activity": 1606551045,
+      "draw_offer": "white",
+      "rated": true,
+      "turn": "white",
+      "fen": "nbqrknbr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/NBQRKNBR w KDkd c6 0 2",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": "https://api.chess.com/pub/player/mainak_roy",
+      "black": "https://api.chess.com/pub/player/rainbowsandcastle",
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647420",
+      "move_by": 1606637370,
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"2\"]\n[White \"RainbowSandcastle\"]\n[Black \"Devilmercer\"]\n[Result \"*\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/3P4/8/PPP1PPPP/NBQRKNBR b KDkd d3 0 1\"]\n[Timezone \"UTC\"]\n[ECO \"A40\"]\n[ECOUrl \"https://www.chess.com/openings/Queens-Pawn-Opening\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[StartTime \"12:28:44\"]\n[Link \"https://www.chess.com/game/daily/289647420\"]\n\n1. d4 *",
+      "time_control": "1/86400",
+      "last_activity": 1606550970,
+      "rated": true,
+      "turn": "black",
+      "fen": "nbqrknbr/pppppppp/8/8/3P4/8/PPP1PPPP/NBQRKNBR b KDkd d3 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": "https://api.chess.com/pub/player/rainbowsandcastle",
+      "black": "https://api.chess.com/pub/player/devilmercer",
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647390",
+      "move_by": 1606637284,
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"2\"]\n[White \"RainbowSandcastle\"]\n[Black \"samuelpin\"]\n[Result \"*\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/3P4/8/PPP1PPPP/NBQRKNBR b KDkd d3 0 1\"]\n[Timezone \"UTC\"]\n[ECO \"A40\"]\n[ECOUrl \"https://www.chess.com/openings/Queens-Pawn-Opening\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[StartTime \"12:28:44\"]\n[Link \"https://www.chess.com/game/daily/289647390\"]\n\n1. d4 *",
+      "time_control": "1/86400",
+      "last_activity": 1606550884,
+      "rated": true,
+      "turn": "black",
+      "fen": "nbqrknbr/pppppppp/8/8/3P4/8/PPP1PPPP/NBQRKNBR b KDkd d3 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": "https://api.chess.com/pub/player/rainbowsandcastle",
+      "black": "https://api.chess.com/pub/player/samuelpin",
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647426",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"GS20598\"]\n[Black \"Mainak_Roy\"]\n[Result \"1/2-1/2\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/ppp1pppp/3p4/8/4P3/3P4/PPP2PPP/NBQRKNBR b KDkd e3 0 2\"]\n[Timezone \"UTC\"]\n[ECO \"A00\"]\n[ECOUrl \"https://www.chess.com/openings/Mieses-Opening\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"1000\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"Game drawn by agreement\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"07:09:12\"]\n[Link \"https://www.chess.com/game/daily/289647426\"]\n\n1. d3 d6 2. e4 1/2-1/2",
+      "time_control": "1/86400",
+      "end_time": 1606547352,
+      "rated": true,
+      "fen": "nbqrknbr/ppp1pppp/3p4/8/4P3/3P4/PPP2PPP/NBQRKNBR b KDkd e3 0 2",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 1000,
+        "result": "agreed",
+        "@id": "https://api.chess.com/pub/player/gs20598",
+        "username": "GS20598"
+      },
+      "black": {
+        "rating": 800,
+        "result": "agreed",
+        "@id": "https://api.chess.com/pub/player/mainak_roy",
+        "username": "Mainak_Roy"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647384",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"Mainak_Roy\"]\n[Black \"GS20598\"]\n[Result \"1/2-1/2\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/NBQRKNBR w KDkd e6 0 2\"]\n[Timezone \"UTC\"]\n[ECO \"C20\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening-1...e5\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"1000\"]\n[TimeControl \"1/86400\"]\n[Termination \"Game drawn by agreement\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"07:07:04\"]\n[Link \"https://www.chess.com/game/daily/289647384\"]\n\n1. e4 e5 1/2-1/2",
+      "time_control": "1/86400",
+      "end_time": 1606547224,
+      "rated": true,
+      "fen": "nbqrknbr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/NBQRKNBR w KDkd e6 0 2",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "agreed",
+        "@id": "https://api.chess.com/pub/player/mainak_roy",
+        "username": "Mainak_Roy"
+      },
+      "black": {
+        "rating": 1000,
+        "result": "agreed",
+        "@id": "https://api.chess.com/pub/player/gs20598",
+        "username": "GS20598"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647382",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"Mainak_Roy\"]\n[Black \"Devilmercer\"]\n[Result \"1-0\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/4P3/8/PPPP1PPP/NBQRKNBR b KDkd e3 0 1\"]\n[Timezone \"UTC\"]\n[ECO \"B00\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"Mainak_Roy won on time\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"18:10:04\"]\n[Link \"https://www.chess.com/game/daily/289647382\"]\n\n1. e4 1-0",
+      "time_control": "1/86400",
+      "end_time": 1606587004,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/4P3/8/PPPP1PPP/NBQRKNBR b KDkd e3 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/mainak_roy",
+        "username": "Mainak_Roy"
+      },
+      "black": {
+        "rating": 800,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/devilmercer",
+        "username": "Devilmercer"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647380",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"Mainak_Roy\"]\n[Black \"samuelpin\"]\n[Result \"1-0\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/4P3/8/PPPP1PPP/NBQRKNBR b KDkd e3 0 1\"]\n[Timezone \"UTC\"]\n[ECO \"B00\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"Mainak_Roy won on time\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"18:10:04\"]\n[Link \"https://www.chess.com/game/daily/289647380\"]\n\n1. e4 1-0",
+      "time_control": "1/86400",
+      "end_time": 1606587004,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/4P3/8/PPPP1PPP/NBQRKNBR b KDkd e3 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/mainak_roy",
+        "username": "Mainak_Roy"
+      },
+      "black": {
+        "rating": 800,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/samuelpin",
+        "username": "samuelpin"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647402",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"GS20598\"]\n[Black \"RainbowSandcastle\"]\n[Result \"0-1\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/3P4/PPP1PPPP/NBQRKNBR b KDkd - 0 1\"]\n[Timezone \"UTC\"]\n[ECO \"A00\"]\n[ECOUrl \"https://www.chess.com/openings/Mieses-Opening\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"1000\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"RainbowSandcastle won by resignation\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"07:08:45\"]\n[Link \"https://www.chess.com/game/daily/289647402\"]\n\n1. d3 0-1",
+      "time_control": "1/86400",
+      "end_time": 1606547325,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/3P4/PPP1PPPP/NBQRKNBR b KDkd - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 1000,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/gs20598",
+        "username": "GS20598"
+      },
+      "black": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/rainbowsandcastle",
+        "username": "RainbowSandcastle"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647398",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"GS20598\"]\n[Black \"Devilmercer\"]\n[Result \"0-1\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/3P4/PPP1PPPP/NBQRKNBR b KDkd - 0 1\"]\n[Timezone \"UTC\"]\n[ECO \"A00\"]\n[ECOUrl \"https://www.chess.com/openings/Mieses-Opening\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"1000\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"Devilmercer won by resignation\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"07:07:42\"]\n[Link \"https://www.chess.com/game/daily/289647398\"]\n\n1. d3 0-1",
+      "time_control": "1/86400",
+      "end_time": 1606547262,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/3P4/PPP1PPPP/NBQRKNBR b KDkd - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 1000,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/gs20598",
+        "username": "GS20598"
+      },
+      "black": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/devilmercer",
+        "username": "Devilmercer"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647406",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"GS20598\"]\n[Black \"samuelpin\"]\n[Result \"0-1\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/3P4/PPP1PPPP/NBQRKNBR b KDkd - 0 1\"]\n[Timezone \"UTC\"]\n[ECO \"A00\"]\n[ECOUrl \"https://www.chess.com/openings/Mieses-Opening\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"1000\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"samuelpin won by resignation\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"07:07:51\"]\n[Link \"https://www.chess.com/game/daily/289647406\"]\n\n1. d3 0-1",
+      "time_control": "1/86400",
+      "end_time": 1606547271,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/3P4/PPP1PPPP/NBQRKNBR b KDkd - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 1000,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/gs20598",
+        "username": "GS20598"
+      },
+      "black": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/samuelpin",
+        "username": "samuelpin"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647370",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"Devilmercer\"]\n[Black \"Mainak_Roy\"]\n[Result \"0-1\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1\"]\n[Timezone \"UTC\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"Mainak_Roy won on time\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"12:30:05\"]\n[Link \"https://www.chess.com/game/daily/289647370\"]\n\n0-1",
+      "time_control": "1/86400",
+      "end_time": 1606566605,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/devilmercer",
+        "username": "Devilmercer"
+      },
+      "black": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/mainak_roy",
+        "username": "Mainak_Roy"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647374",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"Devilmercer\"]\n[Black \"RainbowSandcastle\"]\n[Result \"0-1\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1\"]\n[Timezone \"UTC\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"RainbowSandcastle won on time\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"12:30:05\"]\n[Link \"https://www.chess.com/game/daily/289647374\"]\n\n0-1",
+      "time_control": "1/86400",
+      "end_time": 1606566605,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/devilmercer",
+        "username": "Devilmercer"
+      },
+      "black": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/rainbowsandcastle",
+        "username": "RainbowSandcastle"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647376",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"Devilmercer\"]\n[Black \"GS20598\"]\n[Result \"1-0\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1\"]\n[Timezone \"UTC\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"1000\"]\n[TimeControl \"1/86400\"]\n[Termination \"Devilmercer won by resignation\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"07:08:04\"]\n[Link \"https://www.chess.com/game/daily/289647376\"]\n\n1-0",
+      "time_control": "1/86400",
+      "end_time": 1606547284,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/devilmercer",
+        "username": "Devilmercer"
+      },
+      "black": {
+        "rating": 1000,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/gs20598",
+        "username": "GS20598"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647378",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"Devilmercer\"]\n[Black \"samuelpin\"]\n[Result \"0-1\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1\"]\n[Timezone \"UTC\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"samuelpin won on time\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"12:30:05\"]\n[Link \"https://www.chess.com/game/daily/289647378\"]\n\n0-1",
+      "time_control": "1/86400",
+      "end_time": 1606566605,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/devilmercer",
+        "username": "Devilmercer"
+      },
+      "black": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/samuelpin",
+        "username": "samuelpin"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647386",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"RainbowSandcastle\"]\n[Black \"GS20598\"]\n[Result \"1-0\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1\"]\n[Timezone \"UTC\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"1000\"]\n[TimeControl \"1/86400\"]\n[Termination \"RainbowSandcastle won by resignation\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"07:08:18\"]\n[Link \"https://www.chess.com/game/daily/289647386\"]\n\n1-0",
+      "time_control": "1/86400",
+      "end_time": 1606547298,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/rainbowsandcastle",
+        "username": "RainbowSandcastle"
+      },
+      "black": {
+        "rating": 1000,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/gs20598",
+        "username": "GS20598"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647392",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"samuelpin\"]\n[Black \"Mainak_Roy\"]\n[Result \"0-1\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1\"]\n[Timezone \"UTC\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"Mainak_Roy won on time\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"12:30:05\"]\n[Link \"https://www.chess.com/game/daily/289647392\"]\n\n0-1",
+      "time_control": "1/86400",
+      "end_time": 1606566605,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/samuelpin",
+        "username": "samuelpin"
+      },
+      "black": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/mainak_roy",
+        "username": "Mainak_Roy"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647394",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"samuelpin\"]\n[Black \"RainbowSandcastle\"]\n[Result \"0-1\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1\"]\n[Timezone \"UTC\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"RainbowSandcastle won on time\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"12:30:05\"]\n[Link \"https://www.chess.com/game/daily/289647394\"]\n\n0-1",
+      "time_control": "1/86400",
+      "end_time": 1606566605,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/samuelpin",
+        "username": "samuelpin"
+      },
+      "black": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/rainbowsandcastle",
+        "username": "RainbowSandcastle"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647396",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"samuelpin\"]\n[Black \"GS20598\"]\n[Result \"1-0\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1\"]\n[Timezone \"UTC\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"1000\"]\n[TimeControl \"1/86400\"]\n[Termination \"samuelpin won by resignation\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"07:08:30\"]\n[Link \"https://www.chess.com/game/daily/289647396\"]\n\n1-0",
+      "time_control": "1/86400",
+      "end_time": 1606547310,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/samuelpin",
+        "username": "samuelpin"
+      },
+      "black": {
+        "rating": 1000,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/gs20598",
+        "username": "GS20598"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/289647424",
+      "pgn": "[Event \"5th Chess.com Chess960 Quick Knockouts Under 1000 - Round 1 - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2020.11.27\"]\n[Round \"-\"]\n[White \"samuelpin\"]\n[Black \"Devilmercer\"]\n[Result \"0-1\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w HDhd - 0 1\"]\n[Tournament \"https://www.chess.com/tournament/5th-chess-com-chess960-quick-knockouts-under-1000\"]\n[CurrentPosition \"nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1\"]\n[Timezone \"UTC\"]\n[UTCDate \"2020.11.27\"]\n[UTCTime \"12:28:44\"]\n[WhiteElo \"800\"]\n[BlackElo \"800\"]\n[TimeControl \"1/86400\"]\n[Termination \"Devilmercer won on time\"]\n[StartTime \"12:28:44\"]\n[EndDate \"2020.11.28\"]\n[EndTime \"12:30:05\"]\n[Link \"https://www.chess.com/game/daily/289647424\"]\n\n0-1",
+      "time_control": "1/86400",
+      "end_time": 1606566605,
+      "rated": true,
+      "fen": "nbqrknbr/pppppppp/8/8/8/8/PPPPPPPP/NBQRKNBR w KQkq - 0 1",
+      "start_time": 1606480124,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 800,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/samuelpin",
+        "username": "samuelpin"
+      },
+      "black": {
+        "rating": 800,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/devilmercer",
+        "username": "Devilmercer"
+      },
+      "tournament": "https://api.chess.com/pub/tournament/5th-chess-com-chess960-quick-knockouts-under-1000"
+    }
+  ],
+  "players": [
+    {
+      "username": "gs20598",
+      "points": 1,
+      "is_advancing": false,
+      "tie_break": 5
+    },
+    {
+      "username": "mainak_roy",
+      "points": 5,
+      "is_advancing": false,
+      "tie_break": 13
+    },
+    {
+      "username": "devilmercer",
+      "points": 3,
+      "is_advancing": false,
+      "tie_break": 5
+    },
+    {
+      "username": "samuelpin",
+      "points": 3,
+      "is_advancing": false,
+      "tie_break": 5
+    },
+    {
+      "username": "rainbowsandcastle",
+      "points": 4,
+      "is_advancing": false,
+      "tie_break": 8
+    }
+  ]
+}
