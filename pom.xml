@@ -10,6 +10,30 @@
     <version>1.0-RELEASE</version>
     <packaging>pom</packaging>
 
+    <name>dev.migwel.chesscomjava.ChessComJava</name>
+    <description>Java wrapper around the chess.com API</description>
+    <url>https://migwel.dev</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Miguel Gonzalez</name>
+            <email>blog@migwel.dev</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/migwel/chesscomjava.git</connection>
+        <developerConnection>scm:git:ssh://github.com:migwel/chesscomjava.git</developerConnection>
+        <url>https://github.com/migwel/chesscomjava/tree/master</url>
+    </scm>
+
     <modules>
         <module>api</module>
         <module>implementation</module>
