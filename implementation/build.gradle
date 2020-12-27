@@ -1,8 +1,0 @@
-dependencies {
-    compile project(':api')
-
-    compile group: 'org.apache.httpcomponents', name:'httpclient', version:'4.5.12'
-    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.0-rc1'
-
-    testCompile project(':util')
-}

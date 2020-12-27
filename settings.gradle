@@ -1,5 +1,0 @@
-rootProject.name = 'ChessComJava'
-include 'api'
-include 'implementation'
-include 'util'
-
